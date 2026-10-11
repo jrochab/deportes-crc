@@ -20,8 +20,6 @@ LIGAS = [
     ("Automovilismo", "racing", "f1", "Fórmula 1"),
     ("Tenis", "tennis", "atp", "Tenis ATP"),
     ("Tenis", "tennis", "wta", "Tenis WTA"),
-    ("Voleibol", "volleyball", "fivb.m", "Voleibol FIVB masculino"),
-    ("Voleibol", "volleyball", "fivb.w", "Voleibol FIVB femenino"),
 ]
 
 def consultar(url):
