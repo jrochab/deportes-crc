@@ -20,6 +20,7 @@ LIGAS = [
     ("Automovilismo", "racing", "f1", "Fórmula 1"),
     ("Tenis", "tennis", "atp", "Tenis ATP"),
     ("Tenis", "tennis", "wta", "Tenis WTA"),
+    ("Fútbol", "soccer", "crc.1", "Liga Promerica de Costa Rica"),
 ]
 
 def consultar(url):
