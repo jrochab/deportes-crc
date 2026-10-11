@@ -1,16 +1,913 @@
 {
-  "actualizado": "2026-10-11T13:40:11.812489-06:00",
+  "actualizado": "2026-10-11T13:47:51.135023-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-10-18",
-  "cantidad_eventos": 0,
-  "eventos": [],
-  "fuentes_con_error": [
-    "Premier League: HTTP Error 400: Bad Request",
-    "LaLiga: HTTP Error 400: Bad Request",
-    "Serie A: HTTP Error 400: Bad Request",
-    "Bundesliga: HTTP Error 400: Bad Request",
-    "Ligue 1: HTTP Error 400: Bad Request",
-    "MLB: HTTP Error 400: Bad Request",
-    "NBA: HTTP Error 400: Bad Request"
-  ]
+  "periodo_hasta": "2026-10-17",
+  "cantidad_eventos": 73,
+  "eventos": [
+    {
+      "fecha": "2026-10-11",
+      "hora": "16:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Cleveland Cavaliers vs. Orlando Magic",
+      "canales": [
+        "ESPN"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-11",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Charlotte Hornets vs. Milwaukee Bucks",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-11",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Milwaukee Brewers vs. Los Angeles Dodgers",
+      "canales": [
+        "FS1",
+        "Fox"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-11",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Denver Nuggets vs. Chicago Bulls",
+      "canales": [
+        "ESPN"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Atalanta vs. Venezia",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "12:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Torino vs. Udinese",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "13:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Coventry City vs. Newcastle United",
+      "canales": [
+        "USA Net"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "13:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Levante vs. Sevilla",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Portland Trail Blazers vs. London Lions",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "15:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Milwaukee Brewers vs. Los Angeles Dodgers",
+      "canales": [
+        "FS1",
+        "Fox"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Atlanta Hawks vs. Oklahoma City Thunder",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Washington Wizards vs. Brooklyn Nets",
+      "canales": [
+        "MNMT"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "17:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New York Knicks vs. Minnesota Timberwolves",
+      "canales": [
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Tampa Bay Rays vs. Cleveland Guardians",
+      "canales": [
+        "TBS",
+        "truTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-12",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Utah Jazz vs. San Antonio Spurs",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Orlando Magic vs. Cleveland Cavaliers",
+      "canales": [
+        "NBCSN",
+        "Peacock"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Toronto Raptors vs. New York Knicks",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Oklahoma City Thunder vs. Indiana Pacers",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Tampa Bay Rays vs. Cleveland Guardians",
+      "canales": [
+        "TBS",
+        "truTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Los Angeles Lakers vs. Golden State Warriors",
+      "canales": [
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Sacramento Kings vs. Portland Trail Blazers",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "17:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Boston Celtics vs. Charlotte Hornets",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "17:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Miami Heat vs. Brooklyn Nets",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Dallas Mavericks vs. New Orleans Pelicans",
+      "canales": [
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Los Angeles Dodgers vs. Milwaukee Brewers",
+      "canales": [
+        "FS1",
+        "Fox"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Milwaukee Bucks vs. Chicago Bulls",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Minnesota Timberwolves vs. Detroit Pistons",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "San Antonio Spurs vs. Phoenix Suns",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "20:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "LA Clippers vs. Denver Nuggets",
+      "canales": [
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "16:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Cleveland Guardians vs. Tampa Bay Rays",
+      "canales": [
+        "TBS",
+        "truTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "17:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New York Knicks vs. Toronto Raptors",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Houston Rockets vs. Oklahoma City Thunder",
+      "canales": [
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Los Angeles Dodgers vs. Milwaukee Brewers",
+      "canales": [
+        "FS1",
+        "Fox"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "12:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "Eintracht Frankfurt vs. FC Cologne",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "12:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Frosinone vs. Sassuolo",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "12:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "Le Mans vs. Toulouse",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "13:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Deportivo vs. Levante",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "16:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Cleveland Guardians vs. Tampa Bay Rays",
+      "canales": [
+        "TBS",
+        "truTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Detroit Pistons vs. Toronto Raptors",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Indiana Pacers vs. Milwaukee Bucks",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Orlando Magic vs. Miami Heat",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Philadelphia 76ers vs. Boston Celtics",
+      "canales": [
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Chicago Bulls vs. Minnesota Timberwolves",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Dallas Mavericks vs. Atlanta Hawks",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Memphis Grizzlies vs. Charlotte Hornets",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New Orleans Pelicans vs. Washington Wizards",
+      "canales": [
+        "MNMT"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "San Antonio Spurs vs. Sacramento Kings",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Los Angeles Dodgers vs. Milwaukee Brewers",
+      "canales": [
+        "FS1",
+        "Fox"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Golden State Warriors vs. Portland Trail Blazers",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Phoenix Suns vs. Utah Jazz",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-16",
+      "hora": "20:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Los Angeles Lakers vs. Denver Nuggets",
+      "canales": [
+        "ESPN"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "05:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Everton vs. Chelsea",
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "06:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Espanyol vs. Atlético Madrid",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "07:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Venezia vs. Napoli",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "07:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "1. FC Union Berlin vs. Borussia Dortmund",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "07:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "Hamburg SV vs. VfB Stuttgart",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "07:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "SV Elversberg vs. FC Augsburg",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "07:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "Schalke 04 vs. Mainz",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "07:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "Werder Bremen vs. SC Paderborn 07",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "08:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Brentford vs. Liverpool",
+      "canales": [
+        "Peacock"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "08:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Fulham vs. Hull City",
+      "canales": [
+        "Peacock"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "08:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Manchester City vs. Ipswich Town",
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "08:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Villarreal vs. Elche",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "09:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "Strasbourg vs. Paris Saint-Germain",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "10:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Bologna vs. Internazionale",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "Bayern Munich vs. RB Leipzig",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Newcastle United vs. Aston Villa",
+      "canales": [
+        "NBC",
+        "Universo"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Real Betis vs. Barcelona",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "12:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "AS Roma vs. Genoa",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "12:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "Lille vs. Brest",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "12:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "Troyes vs. Lens",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "13:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Valencia vs. Athletic Club",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Cleveland Guardians vs. Tampa Bay Rays",
+      "canales": [
+        "TBS",
+        "truTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    }
+  ],
+  "consultas_correctas": 49,
+  "fuentes_con_error": []
 }
