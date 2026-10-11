@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#123c2b">
+<title>DEPORTES CRC 🇨🇷</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f2f5f3;color:#202820}
+header{background:#123c2b;color:white;padding:26px 16px;text-align:center}
+header h1{font-size:clamp(25px,7vw,38px);margin:0 0 8px}
+header p{margin:0;font-size:15px}
+main{max-width:850px;margin:auto;padding:18px 12px}
+.fecha{background:white;border-radius:12px;padding:16px;margin-bottom:16px;text-align:center;box-shadow:0 2px 8px #0001}
+.fecha h2{margin:0 0 6px;font-size:23px}
+.fecha p{margin:0;color:#526157}
+h3{margin:22px 0 12px}
+.filtros{display:flex;flex-wrap:wrap;gap:8px}
+.filtros span{background:#dcebe1;color:#123c2b;border-radius:20px;padding:9px 12px;font-size:14px}
+.aviso{background:white;border-radius:12px;padding:20px;margin-top:16px;line-height:1.6;border-left:5px solid #28794c}
+footer{text-align:center;padding:20px;color:#58645c;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+<h1>DEPORTES CRC 🇨🇷</h1>
+<p>Su agenda deportiva, en hora de Costa Rica</p>
+</header>
+<main>
+<section class="fecha">
+<h2 id="hoy">Agenda deportiva</h2>
+<p>Hora oficial de Costa Rica</p>
+<p id="hora"></p>
+</section>
+<h3>⚽ Deportes que seguiremos</h3>
+<div class="filtros">
+<span>⚽ Fútbol</span>
+<span>⚾ Béisbol MLB</span>
+<span>🏀 Baloncesto NBA</span>
+<span>🏐 Voleibol</span>
+<span>🥊 Boxeo</span>
+<span>🏎️ Fórmula 1</span>
+<span>🎾 Tenis</span>
+<span>🏆 FIBA</span>
+</div>
+<section class="aviso">
+<strong>Bienvenido a DEPORTES CRC.</strong>
+<p>Estamos preparando la agenda con los eventos deportivos, sus horarios en Costa Rica y los canales o plataformas de transmisión que podamos verificar.</p>
+<p>Los eventos importantes tendrán una marca especial. Cada evento aparecerá una sola vez, aunque lo transmitan varios canales.</p>
+<p><strong>Próximo paso:</strong> conectar las fuentes de información para publicar los encuentros y actualizar la agenda automáticamente.</p>
+</section>
+</main>
+<footer>DEPORTES CRC 🇨🇷 · Agenda deportiva</footer>
+<script>
+const opciones={timeZone:"America/Costa_Rica",day:"numeric",month:"long",year:"numeric"};
+document.getElementById("hoy").textContent=new Intl.DateTimeFormat("es-CR",opciones).format(new Date());
+function actualizarHora(){
+document.getElementById("hora").textContent="Hora: "+new Intl.DateTimeFormat("es-CR",{timeZone:"America/Costa_Rica",hour:"2-digit",minute:"2-digit",second:"2-digit"}).format(new Date());
+}
+actualizarHora();
+setInterval(actualizarHora,1000);
+</script>
+</body>
+</html>
