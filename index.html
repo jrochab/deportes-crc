@@ -1,65 +1,256 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#123c2b">
-<title>DEPORTES CRC 🇨🇷</title>
+<title>DEPORTES CRC 🇨🇷 | Agenda deportiva</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f2f5f3;color:#202820}
-header{background:#123c2b;color:white;padding:26px 16px;text-align:center}
-header h1{font-size:clamp(25px,7vw,38px);margin:0 0 8px}
-header p{margin:0;font-size:15px}
-main{max-width:850px;margin:auto;padding:18px 12px}
-.fecha{background:white;border-radius:12px;padding:16px;margin-bottom:16px;text-align:center;box-shadow:0 2px 8px #0001}
-.fecha h2{margin:0 0 6px;font-size:23px}
-.fecha p{margin:0;color:#526157}
-h3{margin:22px 0 12px}
-.filtros{display:flex;flex-wrap:wrap;gap:8px}
-.filtros span{background:#dcebe1;color:#123c2b;border-radius:20px;padding:9px 12px;font-size:14px}
-.aviso{background:white;border-radius:12px;padding:20px;margin-top:16px;line-height:1.6;border-left:5px solid #28794c}
-footer{text-align:center;padding:20px;color:#58645c;font-size:13px}
+body{margin:0;background:#f1f4f2;color:#202820;font-family:Arial,sans-serif}
+header{background:#123c2b;color:white;padding:24px 14px;text-align:center}
+header h1{margin:0;font-size:clamp(27px,7vw,40px)}
+header p{margin:9px 0 0}
+main{max-width:850px;margin:auto;padding:14px}
+.panel,.evento{background:white;border-radius:12px;padding:15px;margin-bottom:12px;box-shadow:0 2px 7px #0000000d}
+h2{font-size:22px;margin:0 0 8px}
+h3{margin:20px 2px 12px}
+.muted{color:#5e6a61;font-size:14px}
+button,select{font:inherit;border-radius:8px;padding:11px;border:1px solid #cbd5cd;background:white;color:#173b29}
+button{cursor:pointer}
+.acciones{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.acciones button{background:#123c2b;color:white;border:0}
+.filtros{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.filtros select{flex:1;min-width:140px}
+.evento{border-left:5px solid #43815a}
+.evento.importante{border-left-color:#c18b16;background:#fffaf0}
+.cabecera-evento{display:flex;gap:12px;align-items:flex-start}
+.hora{font-size:21px;font-weight:bold;min-width:64px;color:#123c2b}
+.detalle{flex:1;min-width:0}
+.nombre{font-weight:bold;font-size:17px;overflow-wrap:anywhere}
+.meta{font-size:14px;color:#536158;margin-top:7px;line-height:1.5}
+.etiqueta{display:inline-block;font-size:12px;border-radius:5px;background:#e3eee6;padding:4px 7px;margin-bottom:6px}
+.evento.importante .etiqueta{background:#f4e2ad;color:#684900}
+#mensaje{line-height:1.5}
+footer{text-align:center;padding:20px;color:#5e6a61;font-size:13px}
+.oculto{display:none}
 </style>
 </head>
 <body>
 <header>
 <h1>DEPORTES CRC 🇨🇷</h1>
-<p>Su agenda deportiva, en hora de Costa Rica</p>
+<p>Su agenda deportiva en hora de Costa Rica</p>
 </header>
+
 <main>
-<section class="fecha">
-<h2 id="hoy">Agenda deportiva</h2>
-<p>Hora oficial de Costa Rica</p>
-<p id="hora"></p>
-</section>
-<h3>⚽ Deportes que seguiremos</h3>
-<div class="filtros">
-<span>⚽ Fútbol</span>
-<span>⚾ Béisbol MLB</span>
-<span>🏀 Baloncesto NBA</span>
-<span>🏐 Voleibol</span>
-<span>🥊 Boxeo</span>
-<span>🏎️ Fórmula 1</span>
-<span>🎾 Tenis</span>
-<span>🏆 FIBA</span>
+<section class="panel">
+<h2 id="fechaHoy">Agenda deportiva</h2>
+<p class="muted">Horarios de Costa Rica · Zona horaria America/Costa_Rica</p>
+<p id="actualizacion" class="muted">Consultando la agenda...</p>
+<div class="acciones">
+<button id="copiar">Copiar agenda para WhatsApp</button>
+<button id="whatsapp">Compartir por WhatsApp</button>
 </div>
-<section class="aviso">
-<strong>Bienvenido a DEPORTES CRC.</strong>
-<p>Estamos preparando la agenda con los eventos deportivos, sus horarios en Costa Rica y los canales o plataformas de transmisión que podamos verificar.</p>
-<p>Los eventos importantes tendrán una marca especial. Cada evento aparecerá una sola vez, aunque lo transmitan varios canales.</p>
-<p><strong>Próximo paso:</strong> conectar las fuentes de información para publicar los encuentros y actualizar la agenda automáticamente.</p>
+</section>
+
+<section class="panel">
+<strong>Buscar eventos</strong>
+<div class="filtros">
+<select id="filtroDeporte" aria-label="Filtrar por deporte">
+<option value="">Todos los deportes</option>
+</select>
+<select id="filtroFecha" aria-label="Filtrar por fecha">
+<option value="">Todos los días</option>
+</select>
+</div>
+<p id="resumen" class="muted">Cargando eventos...</p>
+</section>
+
+<section id="lista"></section>
+
+<section class="panel" id="sinDatos">
+<strong>Preparando la agenda deportiva</strong>
+<p id="mensaje">Estamos intentando cargar los eventos disponibles.</p>
+<p class="muted">La cantidad de eventos depende de las fuentes deportivas conectadas. Algunos horarios o canales podrían no estar disponibles.</p>
+<button id="reintentar">Volver a cargar</button>
 </section>
 </main>
-<footer>DEPORTES CRC 🇨🇷 · Agenda deportiva</footer>
+
+<footer>
+DEPORTES CRC 🇨🇷 · Agenda deportiva
+<br>
+<span id="pieActualizacion">Información sujeta a actualización de las fuentes.</span>
+</footer>
+
 <script>
-const opciones={timeZone:"America/Costa_Rica",day:"numeric",month:"long",year:"numeric"};
-document.getElementById("hoy").textContent=new Intl.DateTimeFormat("es-CR",opciones).format(new Date());
-function actualizarHora(){
-document.getElementById("hora").textContent="Hora: "+new Intl.DateTimeFormat("es-CR",{timeZone:"America/Costa_Rica",hour:"2-digit",minute:"2-digit",second:"2-digit"}).format(new Date());
+const $ = id => document.getElementById(id);
+let eventos = [];
+let fechaSeleccionada = "";
+let deporteSeleccionado = "";
+
+function fechaCR(fecha) {
+  return new Intl.DateTimeFormat("es-CR", {
+    timeZone:"America/Costa_Rica",
+    day:"numeric",month:"long",year:"numeric"
+  }).format(new Date(fecha + "T12:00:00-06:00"));
 }
-actualizarHora();
-setInterval(actualizarHora,1000);
+
+function hoyCR() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone:"America/Costa_Rica",
+    year:"numeric",month:"2-digit",day:"2-digit"
+  }).format(new Date());
+}
+
+function escapar(valor) {
+  return String(valor ?? "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  })[c]);
+}
+
+function textoAgenda(lista) {
+  let salida = "🇨🇷 DEPORTES CRC\nAgenda deportiva\n";
+  if (!lista.length) return salida + "\nNo hay eventos disponibles para los filtros seleccionados.";
+  let fechaAnterior = "";
+  for (const e of lista) {
+    if (e.fecha !== fechaAnterior) {
+      fechaAnterior = e.fecha;
+      salida += "\n📅 " + fechaCR(e.fecha) + "\n";
+    }
+    salida += (e.importante ? "⭐ " : "") +
+      e.hora + " | " + e.deporte + " | " + e.liga + "\n" +
+      e.evento + "\n" +
+      "Transmisión: " +
+      ((e.canales || []).length ? e.canales.join(", ") : "Por confirmar") +
+      "\n";
+  }
+  salida += "\nHorarios de Costa Rica 🇨🇷";
+  return salida;
+}
+
+function listaFiltrada() {
+  return eventos.filter(e =>
+    (!deporteSeleccionado || e.deporte === deporteSeleccionado) &&
+    (!fechaSeleccionada || e.fecha === fechaSeleccionada)
+  ).sort((a,b) => (a.fecha+a.hora).localeCompare(b.fecha+b.hora));
+}
+
+function dibujar() {
+  const lista = listaFiltrada();
+  $("lista").innerHTML = "";
+  $("resumen").textContent = lista.length +
+    (lista.length === 1 ? " evento encontrado." : " eventos encontrados.");
+  $("sinDatos").classList.toggle("oculto", lista.length > 0);
+
+  if (!lista.length) {
+    $("mensaje").textContent = eventos.length
+      ? "No hay eventos para estos filtros. Pruebe con Todos los deportes y Todos los días."
+      : "No se han podido cargar eventos. Puede que la fuente no haya devuelto partidos para estas fechas o que la consulta haya fallado.";
+    return;
+  }
+
+  $("mensaje").textContent = "";
+  let fechaAnterior = "";
+  for (const e of lista) {
+    if (e.fecha !== fechaAnterior) {
+      fechaAnterior = e.fecha;
+      const titulo = document.createElement("h3");
+      titulo.textContent = "📅 " + fechaCR(e.fecha);
+      $("lista").appendChild(titulo);
+    }
+
+    const tarjeta = document.createElement("article");
+    tarjeta.className = "evento" + (e.importante ? " importante" : "");
+    tarjeta.innerHTML =
+      '<div class="cabecera-evento">' +
+        '<div class="hora">' + escapar(e.hora) + '</div>' +
+        '<div class="detalle">' +
+          '<span class="etiqueta">' +
+          (e.importante ? "⭐ EVENTO IMPORTANTE · " : "") +
+          escapar(e.deporte) + '</span>' +
+          '<div class="nombre">' + escapar(e.evento) + '</div>' +
+          '<div class="meta">' + escapar(e.liga) + '</div>' +
+          '<div class="meta">📺 Transmisión: ' +
+          escapar((e.canales || []).length ? e.canales.join(", ") : "Por confirmar") +
+          '</div>' +
+        '</div>' +
+      '</div>';
+    $("lista").appendChild(tarjeta);
+  }
+}
+
+async function cargar() {
+  $("actualizacion").textContent = "Consultando la agenda...";
+  try {
+    const respuesta = await fetch("./agenda.json?v=" + Date.now(), {cache:"no-store"});
+    if (!respuesta.ok) throw new Error("No se pudo consultar agenda.json");
+    const datos = await respuesta.json();
+    if (!Array.isArray(datos.eventos)) throw new Error("El archivo no contiene una lista de eventos.");
+
+    eventos = datos.eventos.filter(e =>
+      e.fecha && e.hora && e.deporte && e.evento
+    );
+
+    $("fechaHoy").textContent = "Agenda deportiva";
+    const deportes = [...new Set(eventos.map(e => e.deporte))].sort();
+    const fechas = [...new Set(eventos.map(e => e.fecha))].sort();
+
+    $("filtroDeporte").innerHTML =
+      '<option value="">Todos los deportes</option>' +
+      deportes.map(d => '<option value="' + escapar(d) + '">' + escapar(d) + '</option>').join("");
+
+    $("filtroFecha").innerHTML =
+      '<option value="">Todos los días</option>' +
+      fechas.map(f => '<option value="' + escapar(f) + '">' + escapar(fechaCR(f)) + '</option>').join("");
+
+    const momento = datos.actualizado ? new Date(datos.actualizado) : null;
+    $("actualizacion").textContent = momento
+      ? "Última actualización registrada: " +
+        new Intl.DateTimeFormat("es-CR", {
+          timeZone:"America/Costa_Rica",
+          dateStyle:"medium",timeStyle:"short"
+        }).format(momento)
+      : "Fecha de actualización no disponible.";
+
+    $("pieActualizacion").textContent = "Eventos encontrados: " + eventos.length;
+    dibujar();
+  } catch (error) {
+    $("actualizacion").textContent = "No se pudo cargar la agenda.";
+    $("sinDatos").classList.remove("oculto");
+    $("mensaje").textContent = "No pudimos leer agenda.json. Compruebe que el archivo exista y que la página esté publicada. Detalle: " + error.message;
+    $("lista").innerHTML = "";
+    $("resumen").textContent = "Agenda no disponible.";
+  }
+}
+
+$("filtroDeporte").addEventListener("change", e => {
+  deporteSeleccionado = e.target.value;
+  dibujar();
+});
+$("filtroFecha").addEventListener("change", e => {
+  fechaSeleccionada = e.target.value;
+  dibujar();
+});
+$("reintentar").addEventListener("click", cargar);
+
+$("copiar").addEventListener("click", async () => {
+  const texto = textoAgenda(listaFiltrada());
+  try {
+    await navigator.clipboard.writeText(texto);
+    $("copiar").textContent = "¡Agenda copiada!";
+    setTimeout(() => $("copiar").textContent = "Copiar agenda para WhatsApp", 2500);
+  } catch {
+    window.prompt("Copie el texto de la agenda:", texto);
+  }
+});
+
+$("whatsapp").addEventListener("click", () => {
+  const texto = textoAgenda(listaFiltrada());
+  window.open("https://wa.me/?text=" + encodeURIComponent(texto), "_blank");
+});
+
+cargar();
 </script>
 </body>
 </html>
