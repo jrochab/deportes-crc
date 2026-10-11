@@ -5,8 +5,9 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 ZONA = ZoneInfo("America/Costa_Rica")
-HOY = datetime.now(ZONA).date()
-FIN = HOY + timedelta(days=7)
+AHORA = datetime.now(ZONA)
+HOY = AHORA.date()
+FIN = HOY + timedelta(days=6)
 
 LIGAS = [
     ("Fútbol", "soccer", "eng.1", "Premier League"),
@@ -21,9 +22,9 @@ LIGAS = [
 def consultar(url):
     solicitud = urllib.request.Request(
         url,
-        headers={"User-Agent": "Mozilla/5.0 DEPORTES-CRC"}
+        headers={"User-Agent": "DEPORTES-CRC/1.0"}
     )
-    with urllib.request.urlopen(solicitud, timeout=20) as respuesta:
+    with urllib.request.urlopen(solicitud, timeout=25) as respuesta:
         return json.loads(respuesta.read().decode("utf-8"))
 
 def convertir_hora(fecha):
@@ -40,59 +41,84 @@ def obtener_canales(evento):
 
 agenda = []
 errores = []
+consultas_ok = 0
+vistos = set()
 
-desde = HOY.strftime("%Y%m%d")
-hasta = FIN.strftime("%Y%m%d")
+dia = HOY
+while dia <= FIN:
+    fecha_api = dia.strftime("%Y%m%d")
 
-for deporte, categoria, codigo, liga in LIGAS:
-    url = (
-        "https://site.api.espn.com/apis/site/v2/sports/"
-        + categoria + "/" + codigo
-        + "/scoreboard?dates=" + desde + "-" + hasta
-    )
+    for deporte, categoria, codigo, liga in LIGAS:
+        url = (
+            "https://site.api.espn.com/apis/site/v2/sports/"
+            + categoria + "/" + codigo
+            + "/scoreboard?dates=" + fecha_api
+        )
 
-    try:
-        datos = consultar(url)
+        try:
+            datos = consultar(url)
+            consultas_ok += 1
 
-        for evento in datos.get("events", []):
-            try:
-                inicio = convertir_hora(evento["date"])
+            for evento in datos.get("events", []):
+                try:
+                    inicio = convertir_hora(evento["date"])
 
-                if not HOY <= inicio.date() <= FIN:
+                    if inicio < AHORA:
+                        continue
+
+                    if not HOY <= inicio.date() <= FIN:
+                        continue
+
+                    identificador = (
+                        liga,
+                        evento.get("id", evento.get("name", "")),
+                    )
+
+                    if identificador in vistos:
+                        continue
+                    vistos.add(identificador)
+
+                    competencia = evento.get("competitions", [{}])[0]
+                    equipos = competencia.get("competitors", [])
+
+                    nombres = [
+                        equipo.get("team", {}).get("displayName", "")
+                        for equipo in equipos
+                    ]
+                    nombres = [n for n in nombres if n]
+
+                    partido = " vs. ".join(nombres)
+                    if not partido:
+                        partido = evento.get("name", "Evento deportivo")
+
+                    agenda.append({
+                        "fecha": inicio.strftime("%Y-%m-%d"),
+                        "hora": inicio.strftime("%H:%M"),
+                        "zona": "Costa Rica",
+                        "deporte": deporte,
+                        "liga": liga,
+                        "evento": partido,
+                        "canales": obtener_canales(evento),
+                        "importante": False,
+                        "fuente": "ESPN"
+                    })
+
+                except (KeyError, TypeError, ValueError):
                     continue
 
-                competencia = evento.get("competitions", [{}])[0]
-                equipos = competencia.get("competitors", [])
-                nombres = [
-                    equipo.get("team", {}).get("displayName", "")
-                    for equipo in equipos
-                ]
-                nombres = [nombre for nombre in nombres if nombre]
+        except Exception as error:
+            mensaje = liga + " (" + fecha_api + "): " + str(error)
+            errores.append(mensaje)
+            print("Consulta fallida: " + mensaje)
 
-                partido = " vs. ".join(nombres)
-                if not partido:
-                    partido = evento.get("name", "Evento deportivo")
+    dia += timedelta(days=1)
 
-                agenda.append({
-                    "fecha": inicio.strftime("%Y-%m-%d"),
-                    "hora": inicio.strftime("%H:%M"),
-                    "zona": "Costa Rica",
-                    "deporte": deporte,
-                    "liga": liga,
-                    "evento": partido,
-                    "canales": obtener_canales(evento),
-                    "importante": False,
-                    "fuente": "ESPN"
-                })
+if consultas_ok == 0:
+    raise RuntimeError(
+        "Todas las consultas fallaron. No se reemplazó agenda.json."
+    )
 
-            except (KeyError, TypeError, ValueError):
-                continue
-
-    except Exception as error:
-        errores.append(liga + ": " + str(error))
-        print("No se pudo consultar " + liga + ": " + str(error))
-
-agenda.sort(key=lambda evento: (evento["fecha"], evento["hora"]))
+agenda.sort(key=lambda e: (e["fecha"], e["hora"], e["evento"]))
 
 resultado = {
     "actualizado": datetime.now(ZONA).isoformat(),
@@ -100,10 +126,12 @@ resultado = {
     "periodo_hasta": FIN.isoformat(),
     "cantidad_eventos": len(agenda),
     "eventos": agenda,
+    "consultas_correctas": consultas_ok,
     "fuentes_con_error": errores
 }
 
 with open("agenda.json", "w", encoding="utf-8") as archivo:
     json.dump(resultado, archivo, ensure_ascii=False, indent=2)
 
-print("Agenda generada: " + str(len(agenda)) + " eventos.")
+print("Consultas correctas: " + str(consultas_ok))
+print("Eventos recopilados: " + str(len(agenda)))
