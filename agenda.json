@@ -1,8 +1,8 @@
 {
-  "actualizado": "2026-10-11T14:08:28.566616-06:00",
+  "actualizado": "2026-10-11T14:13:53.253385-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-17",
-  "cantidad_eventos": 73,
+  "cantidad_eventos": 80,
   "eventos": [
     {
       "fecha": "2026-10-11",
@@ -24,6 +24,17 @@
       "deporte": "Baloncesto",
       "liga": "NBA",
       "evento": "Charlotte Hornets vs. Milwaukee Bucks",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-11",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Escorpiones Belén vs. Saprissa",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -224,6 +235,17 @@
       "fecha": "2026-10-13",
       "hora": "18:00",
       "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Cartaginés vs. Puntarenas FC",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "18:00",
+      "zona": "Costa Rica",
       "deporte": "Baloncesto",
       "liga": "NBA",
       "evento": "Oklahoma City Thunder vs. Indiana Pacers",
@@ -249,6 +271,17 @@
       "fecha": "2026-10-13",
       "hora": "20:00",
       "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "AD San Carlos vs. Inter de San Carlos",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "20:00",
+      "zona": "Costa Rica",
       "deporte": "Baloncesto",
       "liga": "NBA",
       "evento": "Los Angeles Lakers vs. Golden State Warriors",
@@ -265,6 +298,17 @@
       "deporte": "Baloncesto",
       "liga": "NBA",
       "evento": "Sacramento Kings vs. Portland Trail Blazers",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Pérez Zeledón vs. Escorpiones Belén",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -353,6 +397,17 @@
     },
     {
       "fecha": "2026-10-14",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Alajuelense vs. Herediano",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
       "hora": "20:30",
       "zona": "Costa Rica",
       "deporte": "Baloncesto",
@@ -413,6 +468,17 @@
         "FS1",
         "Fox"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Saprissa vs. Sporting San José",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -906,23 +972,19 @@
       ],
       "importante": false,
       "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Inter de San Carlos vs. Alajuelense",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
     }
   ],
-  "consultas_correctas": 70,
-  "fuentes_con_error": [
-    "Voleibol FIVB masculino (20261011): HTTP Error 400: Bad Request",
-    "Voleibol FIVB femenino (20261011): HTTP Error 400: Bad Request",
-    "Voleibol FIVB masculino (20261012): HTTP Error 400: Bad Request",
-    "Voleibol FIVB femenino (20261012): HTTP Error 400: Bad Request",
-    "Voleibol FIVB masculino (20261013): HTTP Error 400: Bad Request",
-    "Voleibol FIVB femenino (20261013): HTTP Error 400: Bad Request",
-    "Voleibol FIVB masculino (20261014): HTTP Error 400: Bad Request",
-    "Voleibol FIVB femenino (20261014): HTTP Error 400: Bad Request",
-    "Voleibol FIVB masculino (20261015): HTTP Error 400: Bad Request",
-    "Voleibol FIVB femenino (20261015): HTTP Error 400: Bad Request",
-    "Voleibol FIVB masculino (20261016): HTTP Error 400: Bad Request",
-    "Voleibol FIVB femenino (20261016): HTTP Error 400: Bad Request",
-    "Voleibol FIVB masculino (20261017): HTTP Error 400: Bad Request",
-    "Voleibol FIVB femenino (20261017): HTTP Error 400: Bad Request"
-  ]
+  "consultas_correctas": 77,
+  "fuentes_con_error": []
 }
