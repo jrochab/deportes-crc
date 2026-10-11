@@ -1,0 +1,16 @@
+{
+  "actualizado": "2026-10-11T13:40:11.812489-06:00",
+  "zona_horaria": "America/Costa_Rica",
+  "periodo_hasta": "2026-10-18",
+  "cantidad_eventos": 0,
+  "eventos": [],
+  "fuentes_con_error": [
+    "Premier League: HTTP Error 400: Bad Request",
+    "LaLiga: HTTP Error 400: Bad Request",
+    "Serie A: HTTP Error 400: Bad Request",
+    "Bundesliga: HTTP Error 400: Bad Request",
+    "Ligue 1: HTTP Error 400: Bad Request",
+    "MLB: HTTP Error 400: Bad Request",
+    "NBA: HTTP Error 400: Bad Request"
+  ]
+}
