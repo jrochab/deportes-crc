@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-11T13:47:51.135023-06:00",
+  "actualizado": "2026-10-11T14:08:28.566616-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-17",
   "cantidad_eventos": 73,
@@ -908,6 +908,21 @@
       "fuente": "ESPN"
     }
   ],
-  "consultas_correctas": 49,
-  "fuentes_con_error": []
+  "consultas_correctas": 70,
+  "fuentes_con_error": [
+    "Voleibol FIVB masculino (20261011): HTTP Error 400: Bad Request",
+    "Voleibol FIVB femenino (20261011): HTTP Error 400: Bad Request",
+    "Voleibol FIVB masculino (20261012): HTTP Error 400: Bad Request",
+    "Voleibol FIVB femenino (20261012): HTTP Error 400: Bad Request",
+    "Voleibol FIVB masculino (20261013): HTTP Error 400: Bad Request",
+    "Voleibol FIVB femenino (20261013): HTTP Error 400: Bad Request",
+    "Voleibol FIVB masculino (20261014): HTTP Error 400: Bad Request",
+    "Voleibol FIVB femenino (20261014): HTTP Error 400: Bad Request",
+    "Voleibol FIVB masculino (20261015): HTTP Error 400: Bad Request",
+    "Voleibol FIVB femenino (20261015): HTTP Error 400: Bad Request",
+    "Voleibol FIVB masculino (20261016): HTTP Error 400: Bad Request",
+    "Voleibol FIVB femenino (20261016): HTTP Error 400: Bad Request",
+    "Voleibol FIVB masculino (20261017): HTTP Error 400: Bad Request",
+    "Voleibol FIVB femenino (20261017): HTTP Error 400: Bad Request"
+  ]
 }
