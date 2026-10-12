@@ -1,20 +1,9 @@
 {
-  "actualizado": "2026-10-12T13:17:10.596365-06:00",
+  "actualizado": "2026-10-12T14:11:11.005201-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-18",
-  "cantidad_eventos": 93,
+  "cantidad_eventos": 92,
   "eventos": [
-    {
-      "fecha": "2026-10-12",
-      "hora": "14:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Portland Trail Blazers vs. London Lions",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-12",
       "hora": "15:00",
@@ -1130,8 +1119,6 @@
       "fuente": "ESPN"
     }
   ],
-  "consultas_correctas": 76,
-  "fuentes_con_error": [
-    "Tenis WTA (20261017): Remote end closed connection without response"
-  ]
+  "consultas_correctas": 77,
+  "fuentes_con_error": []
 }
