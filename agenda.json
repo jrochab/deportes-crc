@@ -1,62 +1,9 @@
 {
-  "actualizado": "2026-10-12T03:34:36.808187-06:00",
+  "actualizado": "2026-10-12T13:17:10.596365-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-18",
-  "cantidad_eventos": 97,
+  "cantidad_eventos": 93,
   "eventos": [
-    {
-      "fecha": "2026-10-12",
-      "hora": "10:30",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Serie A",
-      "evento": "Atalanta vs. Venezia",
-      "canales": [
-        "Paramount+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-12",
-      "hora": "12:45",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Serie A",
-      "evento": "Torino vs. Udinese",
-      "canales": [
-        "Paramount+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-12",
-      "hora": "13:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Premier League",
-      "evento": "Coventry City vs. Newcastle United",
-      "canales": [
-        "USA Net"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-12",
-      "hora": "13:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "LaLiga",
-      "evento": "Levante vs. Sevilla",
-      "canales": [
-        "ESPN Deportes",
-        "ESPN+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-12",
       "hora": "14:00",
@@ -1183,6 +1130,8 @@
       "fuente": "ESPN"
     }
   ],
-  "consultas_correctas": 77,
-  "fuentes_con_error": []
+  "consultas_correctas": 76,
+  "fuentes_con_error": [
+    "Tenis WTA (20261017): Remote end closed connection without response"
+  ]
 }
