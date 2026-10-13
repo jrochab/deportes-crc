@@ -1,39 +1,13 @@
 {
-  "version_script": "tenis-v2",
-  "actualizado": "2026-10-13T01:10:52.377086-06:00",
+  "version_script": "tenis-v4-promerica",
+  "actualizado": "2026-10-13T01:33:49.655938-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-19",
   "cantidad_eventos": 421,
   "eventos": [
     {
       "fecha": "2026-10-13",
-      "hora": "01:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Elise Mertens vs. Daria Snigur",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "01:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Jelena Ostapenko vs. Daria Kasatkina",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "01:30",
+      "hora": "01:50",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -63,6 +37,19 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
+      "torneo": "Dongfeng Voyah Wuhan Open",
+      "categoria": "Women's Singles",
+      "evento": "Elise Mertens vs. Daria Snigur",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "02:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
       "torneo": "Vanda Pharmaceuticals Mallorca Women's Championships presented by Ecotrans Group",
       "categoria": "Women's Singles",
       "evento": "Eva Bennemann vs. Lucie Nguyen Tan",
@@ -76,35 +63,22 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
+      "torneo": "Dongfeng Voyah Wuhan Open",
+      "categoria": "Women's Singles",
+      "evento": "Jelena Ostapenko vs. Daria Kasatkina",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "02:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
       "torneo": "Vanda Pharmaceuticals Mallorca Women's Championships presented by Ecotrans Group",
       "categoria": "Women's Singles",
       "evento": "Nuria Brancaccio vs. Laura Pigossi",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "02:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Doubles",
-      "evento": "Alexandra Eala / Zeynep Sonmez vs. Anhelina Kalinina / Dayana Yastremska",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "02:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Camila Osorio vs. Ann Li",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -131,6 +105,32 @@
       "torneo": "RoveretOpen Città della Pace",
       "categoria": "Women's Singles",
       "evento": "Viktoria Hruncakova vs. Noemi Basiletti",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "03:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Dongfeng Voyah Wuhan Open",
+      "categoria": "Women's Doubles",
+      "evento": "Alexandra Eala / Zeynep Sonmez vs. Anhelina Kalinina / Dayana Yastremska",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "03:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Dongfeng Voyah Wuhan Open",
+      "categoria": "Women's Singles",
+      "evento": "Camila Osorio vs. Ann Li",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -609,7 +609,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "Cartaginés vs. Puntarenas FC",
-      "canales": [],
+      "canales": [
+        "FUTV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -645,7 +647,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "AD San Carlos vs. Inter de San Carlos",
-      "canales": [],
+      "canales": [
+        "FOX"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1694,7 +1698,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "Pérez Zeledón vs. Escorpiones Belén",
-      "canales": [],
+      "canales": [
+        "FUTV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1786,7 +1792,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "Alajuelense vs. Herediano",
-      "canales": [],
+      "canales": [
+        "FUTV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2095,7 +2103,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "Saprissa vs. Sporting San José",
-      "canales": [],
+      "canales": [
+        "FUTV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3038,7 +3048,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "Inter de San Carlos vs. Alajuelense",
-      "canales": [],
+      "canales": [
+        "FUTV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3355,7 +3367,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "Cartaginés vs. Saprissa",
-      "canales": [],
+      "canales": [
+        "FUTV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3405,7 +3419,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "Pérez Zeledón vs. Herediano",
-      "canales": [],
+      "canales": [
+        "FUTV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -5380,7 +5396,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "Sporting San José vs. AD San Carlos",
-      "canales": [],
+      "canales": [
+        "FOX"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -5391,7 +5409,9 @@
       "deporte": "Fútbol",
       "liga": "Liga Promerica de Costa Rica",
       "evento": "Escorpiones Belén vs. Puntarenas FC",
-      "canales": [],
+      "canales": [
+        "FOX"
+      ],
       "importante": false,
       "fuente": "ESPN"
     }
