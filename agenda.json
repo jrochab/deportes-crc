@@ -1,36 +1,10 @@
 {
   "version_script": "tenis-v2",
-  "actualizado": "2026-10-13T01:04:09.180977-06:00",
+  "actualizado": "2026-10-13T01:10:52.377086-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-19",
-  "cantidad_eventos": 422,
+  "cantidad_eventos": 421,
   "eventos": [
-    {
-      "fecha": "2026-10-13",
-      "hora": "01:10",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Rolex Shanghai Masters",
-      "categoria": "Men's Doubles",
-      "evento": "Lucas Miedler / Neil Oberleitner vs. Austin Krajicek / Nikola Mektic",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "01:15",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Marta Kostyuk vs. Maria Sakkari",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-13",
       "hora": "01:30",
@@ -53,6 +27,19 @@
       "torneo": "Dongfeng Voyah Wuhan Open",
       "categoria": "Women's Singles",
       "evento": "Jelena Ostapenko vs. Daria Kasatkina",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "01:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Dongfeng Voyah Wuhan Open",
+      "categoria": "Women's Singles",
+      "evento": "Marta Kostyuk vs. Maria Sakkari",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
