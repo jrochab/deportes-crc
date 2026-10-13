@@ -1,85 +1,9 @@
 {
-  "actualizado": "2026-10-12T14:11:11.005201-06:00",
+  "actualizado": "2026-10-13T00:46:50.707153-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-10-18",
-  "cantidad_eventos": 92,
+  "periodo_hasta": "2026-10-19",
+  "cantidad_eventos": 100,
   "eventos": [
-    {
-      "fecha": "2026-10-12",
-      "hora": "15:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Milwaukee Brewers vs. Los Angeles Dodgers",
-      "canales": [
-        "FS1",
-        "Fox"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-12",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Atlanta Hawks vs. Oklahoma City Thunder",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-12",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Washington Wizards vs. Brooklyn Nets",
-      "canales": [
-        "MNMT"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-12",
-      "hora": "17:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New York Knicks vs. Minnesota Timberwolves",
-      "canales": [
-        "NBA TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-12",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Tampa Bay Rays vs. Cleveland Guardians",
-      "canales": [
-        "TBS",
-        "truTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-12",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Utah Jazz vs. San Antonio Spurs",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-13",
       "hora": "17:00",
@@ -1115,6 +1039,173 @@
       "canales": [
         "FS1"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-18",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "evento": "Almaty Open",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-18",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "evento": "BNP Paribas Fortis European Open",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-18",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "evento": "Grand Prix Auvergne-Rhône-Alpes",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-18",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "evento": "Kinoshita Group Japan Open",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-18",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "evento": "Ningbo Open",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-18",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "evento": "Río Ladies Open by MundoTênis Tours",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Monza vs. Cagliari",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "12:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Parma vs. Torino",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "13:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Getafe vs. Rayo Vallecano",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "13:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Tottenham Hotspur vs. Coventry City",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "15:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Tampa Bay Rays vs. Cleveland Guardians",
+      "canales": [
+        "TBS",
+        "truTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Milwaukee Brewers vs. Los Angeles Dodgers",
+      "canales": [
+        "FS1",
+        "Fox"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Sporting San José vs. AD San Carlos",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Escorpiones Belén vs. Puntarenas FC",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     }
