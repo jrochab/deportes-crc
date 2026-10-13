@@ -1,5 +1,6 @@
 
 import json
+import unicodedata
 import urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -168,6 +169,54 @@ def procesar_tenis(evento, deporte, liga, agenda, vistos):
 # Resto de deportes (estructura de equipos)
 # ----------------------------------------------------------------------
 
+# ----------------------------------------------------------------------
+# LIGA PROMERICA: el canal depende SOLO del equipo local (regla de localía).
+# No se usa ningún dato de transmisión de ESPN para esta liga.
+# Inter de San Carlos transmite por FUTV (canal oficial).
+# Equipos que no estén en la tabla quedan sin canal ("Por confirmar").
+# ----------------------------------------------------------------------
+
+LIGA_PROMERICA = "Liga Promerica de Costa Rica"
+
+LOCALIA_FUTV = [
+    "saprissa", "alajuelense", "herediano", "cartagines",
+    "guanacasteca", "perez zeledon", "guapiles", "santa ana",
+]
+LOCALIA_FOX = [
+    "san carlos", "sporting", "puntarenas", "escorpiones",
+]
+
+
+def normalizar(texto):
+    texto = unicodedata.normalize("NFD", texto or "")
+    texto = "".join(c for c in texto if unicodedata.category(c) != "Mn")
+    return texto.lower().strip()
+
+
+def canal_por_localia(local):
+    nombre = normalizar(local)
+    if not nombre:
+        return []
+    # Inter de San Carlos NO es "San Carlos". Su canal oficial es FUTV.
+    if "inter" in nombre:
+        return ["FUTV"]
+    if any(clave in nombre for clave in LOCALIA_FUTV):
+        return ["FUTV"]
+    if any(clave in nombre for clave in LOCALIA_FOX):
+        return ["FOX"]
+    return []
+
+
+def equipo_local(competidores):
+    for c in competidores:
+        if c.get("homeAway") == "home":
+            return c.get("team", {}).get("displayName", "")
+    # Respaldo: el primero de la lista
+    if competidores:
+        return competidores[0].get("team", {}).get("displayName", "")
+    return ""
+
+
 def procesar_evento_general(evento, deporte, liga, agenda, vistos):
     inicio = convertir_hora(evento["date"])
 
@@ -199,6 +248,11 @@ def procesar_evento_general(evento, deporte, liga, agenda, vistos):
     if not partido:
         partido = evento.get("name", "Evento deportivo")
 
+    if liga == LIGA_PROMERICA:
+        canales = canal_por_localia(equipo_local(equipos))
+    else:
+        canales = obtener_canales(evento.get("competitions", []))
+
     agenda.append({
         "fecha": inicio.strftime("%Y-%m-%d"),
         "hora": inicio.strftime("%H:%M"),
@@ -206,7 +260,7 @@ def procesar_evento_general(evento, deporte, liga, agenda, vistos):
         "deporte": deporte,
         "liga": liga,
         "evento": partido,
-        "canales": obtener_canales(evento.get("competitions", [])),
+        "canales": canales,
         "importante": False,
         "fuente": "ESPN"
     })
@@ -259,7 +313,7 @@ def main():
     agenda.sort(key=lambda e: (e["fecha"], e["hora"], e["evento"]))
 
     resultado = {
-        "version_script": "tenis-v2",
+        "version_script": "tenis-v4-promerica",
         "actualizado": datetime.now(ZONA).isoformat(),
         "zona_horaria": "America/Costa_Rica",
         "periodo_hasta": FIN.isoformat(),
@@ -272,7 +326,7 @@ def main():
     with open("agenda.json", "w", encoding="utf-8") as archivo:
         json.dump(resultado, archivo, ensure_ascii=False, indent=2)
 
-    print("Version del script: tenis-v2")
+    print("Version del script: tenis-v4-promerica")
     print("Consultas correctas: " + str(consultas_ok))
     print("Eventos recopilados: " + str(len(agenda)))
 
