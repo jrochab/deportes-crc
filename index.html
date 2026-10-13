@@ -119,7 +119,7 @@ function textoAgenda(lista) {
       salida += "\n📅 " + fechaCR(e.fecha) + "\n";
     }
     salida += (e.importante ? "⭐ " : "") +
-      e.hora + " | " + e.deporte + " | " + e.liga + "\n" +
+      e.hora + " | " + e.deporte + " | " + detalleLiga(e) + "\n" +
       e.evento + "\n" +
       "Transmisión: " +
       ((e.canales || []).length ? e.canales.join(", ") : "Por confirmar") +
@@ -127,6 +127,21 @@ function textoAgenda(lista) {
   }
   salida += "\nHorarios de Costa Rica 🇨🇷";
   return salida;
+}
+
+const CATEGORIAS = {
+  "Men's Singles":"Individual masculino",
+  "Women's Singles":"Individual femenino",
+  "Men's Doubles":"Dobles masculino",
+  "Women's Doubles":"Dobles femenino",
+  "Mixed Doubles":"Dobles mixto"
+};
+
+function detalleLiga(e) {
+  let texto = e.liga || "";
+  if (e.torneo) texto += " · " + e.torneo;
+  if (e.categoria) texto += " · " + (CATEGORIAS[e.categoria] || e.categoria);
+  return texto;
 }
 
 function listaFiltrada() {
@@ -170,7 +185,7 @@ function dibujar() {
           (e.importante ? "⭐ EVENTO IMPORTANTE · " : "") +
           escapar(e.deporte) + '</span>' +
           '<div class="nombre">' + escapar(e.evento) + '</div>' +
-          '<div class="meta">' + escapar(e.liga) + '</div>' +
+          '<div class="meta">' + escapar(detalleLiga(e)) + '</div>' +
           '<div class="meta">📺 Transmisión: ' +
           escapar((e.canales || []).length ? e.canales.join(", ") : "Por confirmar") +
           '</div>' +
