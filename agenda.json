@@ -1,188 +1,10 @@
 {
   "version_script": "tenis-v4-promerica",
-  "actualizado": "2026-10-13T13:08:47.561300-06:00",
+  "actualizado": "2026-10-13T22:28:48.680395-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-19",
-  "cantidad_eventos": 376,
+  "cantidad_eventos": 362,
   "eventos": [
-    {
-      "fecha": "2026-10-13",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Orlando Magic vs. Cleveland Cavaliers",
-      "canales": [
-        "NBCSN",
-        "Peacock"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Toronto Raptors vs. New York Knicks",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Cartaginés vs. Puntarenas FC",
-      "canales": [
-        "FUTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Oklahoma City Thunder vs. Indiana Pacers",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Tampa Bay Rays vs. Cleveland Guardians",
-      "canales": [
-        "TBS",
-        "truTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "AD San Carlos vs. Inter de San Carlos",
-      "canales": [
-        "FOX"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Los Angeles Lakers vs. Golden State Warriors",
-      "canales": [
-        "NBA TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Sacramento Kings vs. Portland Trail Blazers",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Belinda Bencic vs. Sonay Kartal",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Iga Swiatek vs. Magdalena Frech",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Liudmila Samsonova vs. Elina Svitolina",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Maja Chwalinska vs. Marie Bouzkova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Doubles",
-      "evento": "Shuko Aoyama / En-Shuo Liang vs. Mariia Kozyreva / Peyton Stearns",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Rolex Shanghai Masters",
-      "categoria": "Men's Singles",
-      "evento": "Rafael Jodar vs. Botic Van De Zandschulp",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-13",
       "hora": "22:30",
@@ -198,7 +20,20 @@
     },
     {
       "fecha": "2026-10-13",
-      "hora": "22:30",
+      "hora": "22:35",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Dongfeng Voyah Wuhan Open",
+      "categoria": "Women's Singles",
+      "evento": "Nikola Bartunkova vs. Jasmine Paolini",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-13",
+      "hora": "22:45",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -211,26 +46,13 @@
     },
     {
       "fecha": "2026-10-13",
-      "hora": "22:30",
+      "hora": "23:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Dongfeng Voyah Wuhan Open",
       "categoria": "Women's Singles",
       "evento": "Diana Shnaider vs. Yulia Putintseva",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-13",
-      "hora": "22:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Nikola Bartunkova vs. Jasmine Paolini",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -283,19 +105,6 @@
       "torneo": "Dongfeng Voyah Wuhan Open",
       "categoria": "Women's Singles",
       "evento": "Jessica Pegula vs. Jelena Ostapenko",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "00:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Doubles",
-      "evento": "Sofia Kenin / Irina Khromacheva vs. Su-Wei Hsieh / Jelena Ostapenko",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -426,6 +235,19 @@
       "torneo": "RoveretOpen Città della Pace",
       "categoria": "Women's Doubles",
       "evento": "Kristina Novak / Ivana Sebestova vs. Tayisiya Morderger / Yana Morderger",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "03:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Dongfeng Voyah Wuhan Open",
+      "categoria": "Women's Doubles",
+      "evento": "Sofia Kenin / Irina Khromacheva vs. Su-Wei Hsieh / Jelena Ostapenko",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1843,7 +1665,11 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Eintracht Frankfurt vs. FC Cologne",
-      "canales": [],
+      "canales": [
+        "Fandango",
+        "Peacock",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1855,6 +1681,7 @@
       "liga": "Serie A",
       "evento": "Frosinone vs. Sassuolo",
       "canales": [
+        "CBSSN",
         "Paramount+"
       ],
       "importante": false,
@@ -1867,7 +1694,10 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Le Mans vs. Toulouse",
-      "canales": [],
+      "canales": [
+        "FuboTV",
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2228,7 +2058,11 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "1. FC Union Berlin vs. Borussia Dortmund",
-      "canales": [],
+      "canales": [
+        "Fandango",
+        "Peacock",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2239,7 +2073,10 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Hamburg SV vs. VfB Stuttgart",
-      "canales": [],
+      "canales": [
+        "Fandango",
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2250,7 +2087,10 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "SV Elversberg vs. FC Augsburg",
-      "canales": [],
+      "canales": [
+        "Fandango",
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2261,7 +2101,10 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Schalke 04 vs. Mainz",
-      "canales": [],
+      "canales": [
+        "Fandango",
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2272,7 +2115,10 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Werder Bremen vs. SC Paderborn 07",
-      "canales": [],
+      "canales": [
+        "Fandango",
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2337,7 +2183,10 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Strasbourg vs. Paris Saint-Germain",
-      "canales": [],
+      "canales": [
+        "FuboTV",
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2361,7 +2210,12 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Bayern Munich vs. RB Leipzig",
-      "canales": [],
+      "canales": [
+        "FuboTV",
+        "Peacock",
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2413,7 +2267,10 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Lille vs. Brest",
-      "canales": [],
+      "canales": [
+        "FuboTV",
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2424,7 +2281,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Troyes vs. Lens",
-      "canales": [],
+      "canales": [
+        "FuboTV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2619,7 +2478,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "AFC Bournemouth vs. Sunderland",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2630,7 +2491,10 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Angers vs. Marseille",
-      "canales": [],
+      "canales": [
+        "FuboTV",
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2641,7 +2505,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Brighton & Hove Albion vs. Crystal Palace",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2665,7 +2531,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Leeds United vs. Manchester United",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2676,7 +2545,10 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Bayer Leverkusen vs. SC Freiburg",
-      "canales": [],
+      "canales": [
+        "Fandango",
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2700,7 +2572,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Le Havre AC vs. AJ Auxerre",
-      "canales": [],
+      "canales": [
+        "FuboTV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2711,7 +2585,10 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Lorient vs. AS Monaco",
-      "canales": [],
+      "canales": [
+        "FuboTV",
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2722,7 +2599,11 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Paris FC vs. Stade Rennais",
-      "canales": [],
+      "canales": [
+        "FuboTV",
+        "Prime Video",
+        "TUBI"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2733,7 +2614,11 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Borussia Mönchengladbach vs. TSG Hoffenheim",
-      "canales": [],
+      "canales": [
+        "Fandango",
+        "Peacock",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2744,7 +2629,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Nottingham Forest vs. Arsenal",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2808,7 +2695,10 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Lyon vs. Nice",
-      "canales": [],
+      "canales": [
+        "FuboTV",
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -4772,7 +4662,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Tottenham Hotspur vs. Coventry City",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
