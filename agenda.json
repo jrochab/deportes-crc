@@ -1,6 +1,6 @@
 {
-  "version_script": "v6-365scores",
-  "actualizado": "2026-10-14T00:09:55.211186-06:00",
+  "version_script": "v7-espn-localia",
+  "actualizado": "2026-10-14T00:18:00.639746-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-20",
   "cantidad_eventos": 425,
@@ -5545,7 +5545,5 @@
     }
   ],
   "consultas_correctas": 77,
-  "fuentes_con_error": [
-    "365Scores: no se encontraron partidos (se usa ESPN)"
-  ]
+  "fuentes_con_error": []
 }
