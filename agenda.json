@@ -1,23 +1,10 @@
 {
-  "version_script": "v5-365scores",
-  "actualizado": "2026-10-14T00:03:27.092681-06:00",
+  "version_script": "v6-365scores",
+  "actualizado": "2026-10-14T00:07:52.605180-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-20",
   "cantidad_eventos": 425,
   "eventos": [
-    {
-      "fecha": "2026-10-14",
-      "hora": "00:20",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Rolex Shanghai Masters",
-      "categoria": "Men's Singles",
-      "evento": "Felix Auger-Aliassime vs. Casper Ruud",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-14",
       "hora": "00:30",
@@ -27,6 +14,19 @@
       "torneo": "Dongfeng Voyah Wuhan Open",
       "categoria": "Women's Singles",
       "evento": "Daria Snigur vs. Janice Tjen",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-14",
+      "hora": "00:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Rolex Shanghai Masters",
+      "categoria": "Men's Singles",
+      "evento": "Felix Auger-Aliassime vs. Casper Ruud",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"

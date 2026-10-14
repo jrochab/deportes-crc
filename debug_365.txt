@@ -1,0 +1,11 @@
+Largo del HTML: 71056
+Contiene 'Cartagin': False
+Contiene 'startTime': 0
+Contiene 'homeCompetitor': 0
+Textos visibles: 0
+
+=== PRIMEROS TEXTOS VISIBLES ===
+
+
+=== HTML ALREDEDOR DE 'Cartagin' ===
+(no aparece)
