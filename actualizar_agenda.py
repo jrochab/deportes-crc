@@ -277,6 +277,11 @@ def procesar_evento_general(evento, deporte, liga, agenda, vistos):
 
 URL_365 = "https://www.365scores.com/es/football/league/liga-fpd-5056/matches"
 
+# 365Scores entrega una página vacía al script (los partidos se cargan con
+# JavaScript), así que está DESACTIVADO. Los partidos de Liga Promerica
+# vienen de ESPN y el canal sale de la regla de localía.
+USAR_365SCORES = False
+
 EQUIPOS_PROMERICA = [
     ("inter", "Inter de San Carlos"),      # antes que "san carlos"
     ("san carlos", "AD San Carlos"),
@@ -489,28 +494,29 @@ def main():
 
     # Liga Promerica: primero 365Scores
     dias_365 = set()
-    try:
-        html_365 = descargar_html(URL_365)
-        partidos_365 = partidos_365scores(html_365)
-        if partidos_365:
-            if os.path.exists("debug_365.txt"):
-                os.remove("debug_365.txt")
-            consultas_ok += 1
-            fechas_365 = [p[0].date() for p in partidos_365]
-            dia_365 = min(fechas_365)
-            while dia_365 <= max(fechas_365):
-                dias_365.add(dia_365)
-                dia_365 += timedelta(days=1)
-            for partido in partidos_365:
-                agregar_partido_365(partido, agenda, vistos)
-            print("365Scores: " + str(len(partidos_365)) + " partidos leídos")
-        else:
-            errores.append("365Scores: no se encontraron partidos (se usa ESPN)")
-            print("365Scores: sin partidos, se usa ESPN")
-            guardar_diagnostico_365(html_365)
-    except Exception as error:
-        errores.append("365Scores: " + str(error) + " (se usa ESPN)")
-        print("365Scores falló: " + str(error) + " (se usa ESPN)")
+    if USAR_365SCORES:
+        try:
+            html_365 = descargar_html(URL_365)
+            partidos_365 = partidos_365scores(html_365)
+            if partidos_365:
+                if os.path.exists("debug_365.txt"):
+                    os.remove("debug_365.txt")
+                consultas_ok += 1
+                fechas_365 = [p[0].date() for p in partidos_365]
+                dia_365 = min(fechas_365)
+                while dia_365 <= max(fechas_365):
+                    dias_365.add(dia_365)
+                    dia_365 += timedelta(days=1)
+                for partido in partidos_365:
+                    agregar_partido_365(partido, agenda, vistos)
+                print("365Scores: " + str(len(partidos_365)) + " partidos leídos")
+            else:
+                errores.append("365Scores: no se encontraron partidos (se usa ESPN)")
+                print("365Scores: sin partidos, se usa ESPN")
+                guardar_diagnostico_365(html_365)
+        except Exception as error:
+            errores.append("365Scores: " + str(error) + " (se usa ESPN)")
+            print("365Scores falló: " + str(error) + " (se usa ESPN)")
 
     dia = HOY
     while dia <= FIN:
@@ -557,7 +563,7 @@ def main():
     agenda.sort(key=lambda e: (e["fecha"], e["hora"], e["evento"]))
 
     resultado = {
-        "version_script": "v6-365scores",
+        "version_script": "v7-espn-localia",
         "actualizado": datetime.now(ZONA).isoformat(),
         "zona_horaria": "America/Costa_Rica",
         "periodo_hasta": FIN.isoformat(),
@@ -570,7 +576,7 @@ def main():
     with open("agenda.json", "w", encoding="utf-8") as archivo:
         json.dump(resultado, archivo, ensure_ascii=False, indent=2)
 
-    print("Version del script: v6-365scores")
+    print("Version del script: v7-espn-localia")
     print("Consultas correctas: " + str(consultas_ok))
     print("Eventos recopilados: " + str(len(agenda)))
 
