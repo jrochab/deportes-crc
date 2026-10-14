@@ -1,8 +1,10 @@
 
 import json
+import re
 import unicodedata
 import urllib.request
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+from html.parser import HTMLParser
 from zoneinfo import ZoneInfo
 
 ZONA = ZoneInfo("America/Costa_Rica")
@@ -266,17 +268,175 @@ def procesar_evento_general(evento, deporte, liga, agenda, vistos):
     })
 
 
+# ----------------------------------------------------------------------
+# LIGA PROMERICA - FUENTE PRINCIPAL: 365Scores
+# La página publica los partidos en su HTML con horas en UTC.
+# Si 365Scores falla o no cubre un día, se usa ESPN como respaldo.
+# ----------------------------------------------------------------------
+
+URL_365 = "https://www.365scores.com/es/football/league/liga-fpd-5056/matches"
+
+EQUIPOS_PROMERICA = [
+    ("inter", "Inter de San Carlos"),      # antes que "san carlos"
+    ("san carlos", "AD San Carlos"),
+    ("cartagines", "Cartaginés"),
+    ("herediano", "Herediano"),
+    ("saprissa", "Saprissa"),
+    ("alajuelense", "Alajuelense"),
+    ("perez zeledon", "Pérez Zeledón"),
+    ("puntarenas", "Puntarenas FC"),
+    ("escorpiones", "Escorpiones Belén"),
+    ("sporting", "Sporting San José"),
+    ("guanacasteca", "Guanacasteca"),
+    ("guapiles", "Santos de Guápiles"),
+    ("santa ana", "Santa Ana"),
+]
+
+RE_FECHA_365 = re.compile(r"^(\d{1,2})/(\d{1,2})/(\d{4})$")
+RE_HORA_365 = re.compile(r"^(\d{1,2}):(\d{2})$")
+
+
+class ExtractorTexto(HTMLParser):
+    """Convierte HTML en una lista de textos visibles."""
+
+    def __init__(self):
+        super().__init__()
+        self.partes = []
+        self.omitir = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style", "noscript"):
+            self.omitir += 1
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style", "noscript") and self.omitir:
+            self.omitir -= 1
+
+    def handle_data(self, data):
+        if not self.omitir:
+            texto = " ".join(data.split())
+            if texto:
+                self.partes.append(texto)
+
+
+def nombre_equipo(texto):
+    n = normalizar(texto)
+    for clave, nombre in EQUIPOS_PROMERICA:
+        if clave in n:
+            return nombre
+    return None
+
+
+def descargar_html(url):
+    solicitud = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+            "Accept-Language": "es-CR,es;q=0.9",
+        }
+    )
+    with urllib.request.urlopen(solicitud, timeout=25) as respuesta:
+        return respuesta.read().decode("utf-8", errors="replace")
+
+
+def partidos_365scores(html):
+    """Devuelve [(inicio_en_hora_CR, local, visitante)] leídos de 365Scores.
+    El formato de la página es: fecha dd/mm/aaaa, y luego
+    equipo local, hora H:MM (UTC), equipo visitante."""
+    extractor = ExtractorTexto()
+    extractor.feed(html)
+    textos = extractor.partes
+
+    resultado = []
+    fecha = None
+    for i, texto in enumerate(textos):
+        m = RE_FECHA_365.match(texto)
+        if m:
+            fecha = (int(m.group(3)), int(m.group(2)), int(m.group(1)))
+            continue
+
+        m = RE_HORA_365.match(texto)
+        if m and fecha and 0 < i < len(textos) - 1:
+            local = nombre_equipo(textos[i - 1])
+            visitante = nombre_equipo(textos[i + 1])
+            if not local or not visitante:
+                continue
+            try:
+                inicio = datetime(
+                    fecha[0], fecha[1], fecha[2],
+                    int(m.group(1)), int(m.group(2)),
+                    tzinfo=timezone.utc
+                ).astimezone(ZONA)
+            except ValueError:
+                continue
+            resultado.append((inicio, local, visitante))
+
+    return resultado
+
+
+def agregar_partido_365(partido, agenda, vistos):
+    inicio, local, visitante = partido
+
+    if inicio < AHORA:
+        return
+    if not HOY <= inicio.date() <= FIN:
+        return
+
+    identificador = (LIGA_PROMERICA, local + "|" + visitante)
+    if identificador in vistos:
+        return
+    vistos.add(identificador)
+
+    agenda.append({
+        "fecha": inicio.strftime("%Y-%m-%d"),
+        "hora": inicio.strftime("%H:%M"),
+        "zona": "Costa Rica",
+        "deporte": "Fútbol",
+        "liga": LIGA_PROMERICA,
+        "evento": local + " vs. " + visitante,
+        "canales": canal_por_localia(local),
+        "importante": False,
+        "fuente": "365Scores"
+    })
+
+
 def main():
     agenda = []
     errores = []
     consultas_ok = 0
     vistos = set()
 
+    # Liga Promerica: primero 365Scores
+    dias_365 = set()
+    try:
+        partidos_365 = partidos_365scores(descargar_html(URL_365))
+        if partidos_365:
+            consultas_ok += 1
+            fechas_365 = [p[0].date() for p in partidos_365]
+            dia_365 = min(fechas_365)
+            while dia_365 <= max(fechas_365):
+                dias_365.add(dia_365)
+                dia_365 += timedelta(days=1)
+            for partido in partidos_365:
+                agregar_partido_365(partido, agenda, vistos)
+            print("365Scores: " + str(len(partidos_365)) + " partidos leídos")
+        else:
+            errores.append("365Scores: no se encontraron partidos (se usa ESPN)")
+            print("365Scores: sin partidos, se usa ESPN")
+    except Exception as error:
+        errores.append("365Scores: " + str(error) + " (se usa ESPN)")
+        print("365Scores falló: " + str(error) + " (se usa ESPN)")
+
     dia = HOY
     while dia <= FIN:
         fecha_api = dia.strftime("%Y%m%d")
 
         for deporte, categoria, codigo, liga in LIGAS:
+            # Liga Promerica ya viene de 365Scores en los días que cubre
+            if liga == LIGA_PROMERICA and dia in dias_365:
+                continue
+
             url = (
                 "https://site.api.espn.com/apis/site/v2/sports/"
                 + categoria + "/" + codigo
@@ -313,7 +473,7 @@ def main():
     agenda.sort(key=lambda e: (e["fecha"], e["hora"], e["evento"]))
 
     resultado = {
-        "version_script": "tenis-v4-promerica",
+        "version_script": "v5-365scores",
         "actualizado": datetime.now(ZONA).isoformat(),
         "zona_horaria": "America/Costa_Rica",
         "periodo_hasta": FIN.isoformat(),
@@ -326,7 +486,7 @@ def main():
     with open("agenda.json", "w", encoding="utf-8") as archivo:
         json.dump(resultado, archivo, ensure_ascii=False, indent=2)
 
-    print("Version del script: tenis-v4-promerica")
+    print("Version del script: v5-365scores")
     print("Consultas correctas: " + str(consultas_ok))
     print("Eventos recopilados: " + str(len(agenda)))
 
