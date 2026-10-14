@@ -1,5 +1,6 @@
 
 import json
+import os
 import re
 import unicodedata
 import urllib.request
@@ -340,10 +341,25 @@ def descargar_html(url):
         return respuesta.read().decode("utf-8", errors="replace")
 
 
-def partidos_365scores(html):
-    """Devuelve [(inicio_en_hora_CR, local, visitante)] leídos de 365Scores.
-    El formato de la página es: fecha dd/mm/aaaa, y luego
-    equipo local, hora H:MM (UTC), equipo visitante."""
+def convertir_utc(anio, mes, dia, hora, minuto):
+    return datetime(
+        anio, mes, dia, hora, minuto, tzinfo=timezone.utc
+    ).astimezone(ZONA)
+
+
+def vecino_equipo(textos, inicio, paso):
+    """Busca el equipo más cercano (hasta 3 textos) antes o después de la hora."""
+    for salto in (1, 2, 3):
+        pos = inicio + paso * salto
+        if 0 <= pos < len(textos):
+            nombre = nombre_equipo(textos[pos])
+            if nombre:
+                return nombre
+    return None
+
+
+def partidos_365_texto(html):
+    """Lee el texto visible: fecha dd/mm/aaaa, local, hora H:MM (UTC), visitante."""
     extractor = ExtractorTexto()
     extractor.feed(html)
     textos = extractor.partes
@@ -351,28 +367,92 @@ def partidos_365scores(html):
     resultado = []
     fecha = None
     for i, texto in enumerate(textos):
-        m = RE_FECHA_365.match(texto)
+        m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", texto)
         if m:
             fecha = (int(m.group(3)), int(m.group(2)), int(m.group(1)))
             continue
 
         m = RE_HORA_365.match(texto)
-        if m and fecha and 0 < i < len(textos) - 1:
-            local = nombre_equipo(textos[i - 1])
-            visitante = nombre_equipo(textos[i + 1])
-            if not local or not visitante:
+        if m and fecha:
+            local = vecino_equipo(textos, i, -1)
+            visitante = vecino_equipo(textos, i, +1)
+            if not local or not visitante or local == visitante:
                 continue
             try:
-                inicio = datetime(
+                inicio = convertir_utc(
                     fecha[0], fecha[1], fecha[2],
-                    int(m.group(1)), int(m.group(2)),
-                    tzinfo=timezone.utc
-                ).astimezone(ZONA)
+                    int(m.group(1)), int(m.group(2))
+                )
             except ValueError:
                 continue
             resultado.append((inicio, local, visitante))
 
     return resultado
+
+
+def partidos_365_json(html):
+    """Respaldo: busca datos embebidos en la página (startTime, homeCompetitor,
+    awayCompetitor)."""
+    resultado = []
+    for m in re.finditer(r'"startTime"\s*:\s*"([^"]+)"', html):
+        trozo = html[m.end():m.end() + 4000]
+        local = re.search(r'"homeCompetitor"\s*:\s*\{[^{}]*?"name"\s*:\s*"([^"]+)"', trozo)
+        visita = re.search(r'"awayCompetitor"\s*:\s*\{[^{}]*?"name"\s*:\s*"([^"]+)"', trozo)
+        if not local or not visita:
+            continue
+        nombre_local = nombre_equipo(local.group(1))
+        nombre_visita = nombre_equipo(visita.group(1))
+        if not nombre_local or not nombre_visita:
+            continue
+        try:
+            inicio = convertir_hora(m.group(1))
+        except ValueError:
+            continue
+        resultado.append((inicio, nombre_local, nombre_visita))
+    return resultado
+
+
+def partidos_365scores(html):
+    """Devuelve [(inicio_en_hora_CR, local, visitante)] leídos de 365Scores."""
+    partidos = partidos_365_texto(html)
+    if not partidos:
+        partidos = partidos_365_json(html)
+
+    # Sin repetidos
+    vistos = set()
+    unicos = []
+    for p in partidos:
+        clave = (p[0], p[1], p[2])
+        if clave not in vistos:
+            vistos.add(clave)
+            unicos.append(p)
+    return unicos
+
+
+def guardar_diagnostico_365(html):
+    """Si no se pudo leer la página, guarda un resumen para revisar el formato."""
+    try:
+        extractor = ExtractorTexto()
+        extractor.feed(html)
+        posicion = html.find("Cartagin")
+        lineas = [
+            "Largo del HTML: " + str(len(html)),
+            "Contiene 'Cartagin': " + str(posicion >= 0),
+            "Contiene 'startTime': " + str(html.count("startTime")),
+            "Contiene 'homeCompetitor': " + str(html.count("homeCompetitor")),
+            "Textos visibles: " + str(len(extractor.partes)),
+            "",
+            "=== PRIMEROS TEXTOS VISIBLES ===",
+            " | ".join(extractor.partes[:120]),
+            "",
+            "=== HTML ALREDEDOR DE 'Cartagin' ===",
+            html[max(0, posicion - 700):posicion + 900] if posicion >= 0 else "(no aparece)",
+        ]
+        with open("debug_365.txt", "w", encoding="utf-8") as archivo:
+            archivo.write("\n".join(lineas))
+        print("365Scores: diagnóstico guardado en debug_365.txt")
+    except Exception as error:
+        print("No se pudo guardar el diagnóstico: " + str(error))
 
 
 def agregar_partido_365(partido, agenda, vistos):
@@ -410,8 +490,11 @@ def main():
     # Liga Promerica: primero 365Scores
     dias_365 = set()
     try:
-        partidos_365 = partidos_365scores(descargar_html(URL_365))
+        html_365 = descargar_html(URL_365)
+        partidos_365 = partidos_365scores(html_365)
         if partidos_365:
+            if os.path.exists("debug_365.txt"):
+                os.remove("debug_365.txt")
             consultas_ok += 1
             fechas_365 = [p[0].date() for p in partidos_365]
             dia_365 = min(fechas_365)
@@ -424,6 +507,7 @@ def main():
         else:
             errores.append("365Scores: no se encontraron partidos (se usa ESPN)")
             print("365Scores: sin partidos, se usa ESPN")
+            guardar_diagnostico_365(html_365)
     except Exception as error:
         errores.append("365Scores: " + str(error) + " (se usa ESPN)")
         print("365Scores falló: " + str(error) + " (se usa ESPN)")
@@ -473,7 +557,7 @@ def main():
     agenda.sort(key=lambda e: (e["fecha"], e["hora"], e["evento"]))
 
     resultado = {
-        "version_script": "v5-365scores",
+        "version_script": "v6-365scores",
         "actualizado": datetime.now(ZONA).isoformat(),
         "zona_horaria": "America/Costa_Rica",
         "periodo_hasta": FIN.isoformat(),
@@ -486,7 +570,7 @@ def main():
     with open("agenda.json", "w", encoding="utf-8") as archivo:
         json.dump(resultado, archivo, ensure_ascii=False, indent=2)
 
-    print("Version del script: v5-365scores")
+    print("Version del script: v6-365scores")
     print("Consultas correctas: " + str(consultas_ok))
     print("Eventos recopilados: " + str(len(agenda)))
 
