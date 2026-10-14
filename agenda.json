@@ -1,36 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-14T10:57:58.481347-06:00",
+  "actualizado": "2026-10-14T15:30:16.706583-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-20",
-  "cantidad_eventos": 389,
+  "cantidad_eventos": 388,
   "eventos": [
-    {
-      "fecha": "2026-10-14",
-      "hora": "11:05",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Lisboa Belem Open",
-      "categoria": "Women's Singles",
-      "evento": "Guiomar Maristany Zuleta De Reales vs. Martha Matoula",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "11:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "RoveretOpen Città della Pace",
-      "categoria": "Women's Singles",
-      "evento": "Lucie Havlickova vs. Lisa Pigato",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-14",
       "hora": "17:00",
@@ -659,6 +633,19 @@
     },
     {
       "fecha": "2026-10-15",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Béisbol",
+      "liga": "MLB",
+      "evento": "Los Angeles Dodgers vs. Milwaukee Brewers",
+      "canales": [
+        "FS1"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
       "hora": "18:30",
       "zona": "Costa Rica",
       "deporte": "Baloncesto",
@@ -666,19 +653,6 @@
       "evento": "Houston Rockets vs. Oklahoma City Thunder",
       "canales": [
         "NBA TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-15",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Los Angeles Dodgers vs. Milwaukee Brewers",
-      "canales": [
-        "FS1"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -779,6 +753,19 @@
       "hora": "22:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Lisboa Belem Open",
+      "categoria": "Women's Doubles",
+      "evento": "Francisca Jorge / Matilde Jorge vs. TBD / TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
       "liga": "Tenis ATP",
       "torneo": "Rolex Shanghai Masters",
       "categoria": "Men's Doubles",
@@ -793,9 +780,35 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
+      "torneo": "Lisboa Belem Open",
+      "categoria": "Women's Singles",
+      "evento": "Guiomar Maristany Zuleta De Reales vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
       "torneo": "RoveretOpen Città della Pace",
       "categoria": "Women's Singles",
-      "evento": "Jil Teichmann vs. TBD",
+      "evento": "Jil Teichmann vs. Lucie Havlickova",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "RoveretOpen Città della Pace",
+      "categoria": "Women's Singles",
+      "evento": "Lucrezia Stefanini vs. TBD",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1054,19 +1067,6 @@
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "RoveretOpen Città della Pace",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-15",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "RoveretOpen Città della Pace",
       "categoria": "Women's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
@@ -1094,19 +1094,6 @@
       "liga": "Tenis WTA",
       "torneo": "RoveretOpen Città della Pace",
       "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-15",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Lisboa Belem Open",
-      "categoria": "Women's Singles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
