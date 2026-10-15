@@ -1,182 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-14T15:30:16.706583-06:00",
+  "actualizado": "2026-10-14T22:11:27.948237-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-20",
-  "cantidad_eventos": 388,
+  "cantidad_eventos": 376,
   "eventos": [
-    {
-      "fecha": "2026-10-14",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Pérez Zeledón vs. Escorpiones Belén",
-      "canales": [
-        "FUTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "17:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Boston Celtics vs. Charlotte Hornets",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "17:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Miami Heat vs. Brooklyn Nets",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Dallas Mavericks vs. New Orleans Pelicans",
-      "canales": [
-        "NBA TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Los Angeles Dodgers vs. Milwaukee Brewers",
-      "canales": [
-        "FS1"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Milwaukee Bucks vs. Chicago Bulls",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Minnesota Timberwolves vs. Detroit Pistons",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "San Antonio Spurs vs. Phoenix Suns",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Alajuelense vs. Herediano",
-      "canales": [
-        "FUTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "LA Clippers vs. Denver Nuggets",
-      "canales": [
-        "NBA TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Diana Shnaider vs. Karolina Muchova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Maria Sakkari vs. Mia Pohankova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Rolex Shanghai Masters",
-      "categoria": "Men's Doubles",
-      "evento": "Jakob Schnaitter / Mark Wallner vs. Christian Harrison / Neal Skupski",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-14",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Singles",
-      "evento": "Maja Chwalinska vs. Iva Jovic",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-14",
       "hora": "22:30",
@@ -192,26 +20,26 @@
     },
     {
       "fecha": "2026-10-14",
-      "hora": "22:30",
+      "hora": "23:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Doubles",
-      "evento": "Storm Hunter / Katerina Siniakova vs. Mariia Kozyreva / Peyton Stearns",
+      "categoria": "Women's Singles",
+      "evento": "Maja Chwalinska vs. Iva Jovic",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
     {
       "fecha": "2026-10-14",
-      "hora": "23:30",
+      "hora": "23:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Dongfeng Voyah Wuhan Open",
       "categoria": "Women's Singles",
-      "evento": "Sonay Kartal vs. Jasmine Paolini",
+      "evento": "Maria Sakkari vs. Mia Pohankova",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -223,8 +51,8 @@
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Dongfeng Voyah Wuhan Open",
-      "categoria": "Women's Doubles",
-      "evento": "Ulrikke Eikeri / Quinn Gleason vs. Gabriela Dabrowski / Luisa Stefani",
+      "categoria": "Women's Singles",
+      "evento": "Sonay Kartal vs. Jasmine Paolini",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -244,13 +72,13 @@
     },
     {
       "fecha": "2026-10-15",
-      "hora": "01:00",
+      "hora": "00:30",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Dongfeng Voyah Wuhan Open",
       "categoria": "Women's Doubles",
-      "evento": "Cristina Bucsa / Nicole Melichar-Martinez vs. Tang Qianhui / Xu Yifan",
+      "evento": "Storm Hunter / Katerina Siniakova vs. Mariia Kozyreva / Peyton Stearns",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -263,7 +91,7 @@
       "liga": "Tenis WTA",
       "torneo": "Dongfeng Voyah Wuhan Open",
       "categoria": "Women's Doubles",
-      "evento": "Ingrid Neel / Giuliana Olmos vs. Fanny Stollar / Fang-Hsien Wu",
+      "evento": "Cristina Bucsa / Nicole Melichar-Martinez vs. Tang Qianhui / Xu Yifan",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -296,13 +124,13 @@
     },
     {
       "fecha": "2026-10-15",
-      "hora": "02:30",
+      "hora": "02:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Dongfeng Voyah Wuhan Open",
       "categoria": "Women's Doubles",
-      "evento": "Marie Bouzkova / Sara Sorribes Tormo vs. Guo Hanyu / Kristina Mladenovic",
+      "evento": "Ulrikke Eikeri / Quinn Gleason vs. Gabriela Dabrowski / Luisa Stefani",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -316,6 +144,32 @@
       "torneo": "Vanda Pharmaceuticals Mallorca Women's Championships",
       "categoria": "Women's Doubles",
       "evento": "Aneta Kucmova / Aneta Laboutkova vs. Nicole Fossa Huergo / Carole Monnet",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "03:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Dongfeng Voyah Wuhan Open",
+      "categoria": "Women's Doubles",
+      "evento": "Marie Bouzkova / Sara Sorribes Tormo vs. Guo Hanyu / Kristina Mladenovic",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-15",
+      "hora": "03:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Dongfeng Voyah Wuhan Open",
+      "categoria": "Women's Doubles",
+      "evento": "Ingrid Neel / Giuliana Olmos vs. Fanny Stollar / Fang-Hsien Wu",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
