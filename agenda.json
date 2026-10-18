@@ -1,91 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-18T09:42:23.921185-06:00",
+  "actualizado": "2026-10-18T14:25:36.890572-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-24",
-  "cantidad_eventos": 344,
+  "cantidad_eventos": 338,
   "eventos": [
-    {
-      "fecha": "2026-10-18",
-      "hora": "10:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Serie A",
-      "evento": "AC Milan vs. Atalanta",
-      "canales": [
-        "Paramount+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-18",
-      "hora": "10:30",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "LaLiga",
-      "evento": "Málaga vs. Real Sociedad",
-      "canales": [
-        "ESPN Deportes",
-        "ESPN+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-18",
-      "hora": "11:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Cartaginés vs. Saprissa",
-      "canales": [
-        "FUTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-18",
-      "hora": "12:45",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Serie A",
-      "evento": "Juventus vs. Lazio",
-      "canales": [
-        "Paramount+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-18",
-      "hora": "12:45",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Ligue 1",
-      "evento": "Lyon vs. Nice",
-      "canales": [
-        "beIn Sports"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-18",
-      "hora": "13:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "LaLiga",
-      "evento": "Real Madrid vs. Sevilla",
-      "canales": [
-        "ABC",
-        "ESPN Deportes",
-        "ESPN+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-18",
       "hora": "15:00",
@@ -769,6 +688,19 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
+      "evento": "Borna Gojo vs. Vitaliy Sachko",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "04:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Doubles",
       "evento": "Constantin Frantzén / Robert Galloway vs. Petr Nouza / Michael Venus",
@@ -784,20 +716,7 @@
       "liga": "Tenis ATP",
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
-      "evento": "Jaume Munar vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-19",
-      "hora": "04:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. Vitaliy Sachko",
+      "evento": "Jaume Munar vs. Federico Cina",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -810,7 +729,7 @@
       "liga": "Tenis ATP",
       "torneo": "Grand Prix Auvergne-Rhône-Alpes",
       "categoria": "Men's Singles",
-      "evento": "TBD vs. Kyrian Jacquet",
+      "evento": "Michael Mmoh vs. Kyrian Jacquet",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -847,9 +766,9 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
-      "evento": "TBD vs. TBD",
+      "evento": "Martin Damm vs. Yannick Hanfmann",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -860,9 +779,9 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
       "categoria": "Men's Singles",
-      "evento": "TBD vs. Yannick Hanfmann",
+      "evento": "Nicolai Budkov Kjaer vs. Clement Tabur",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -914,7 +833,7 @@
       "liga": "Tenis ATP",
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
-      "evento": "Alex Michelsen vs. TBD",
+      "evento": "Alex Michelsen vs. Andrea Guerrieri",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1269,6 +1188,19 @@
       "torneo": "Grand Prix Auvergne-Rhône-Alpes",
       "categoria": "Men's Singles",
       "evento": "Cameron Norrie vs. Benjamin Bonzi",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "BNP Paribas Fortis European Open",
+      "categoria": "Men's Singles",
+      "evento": "Clement Chidekh vs. Botic Van De Zandschulp",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1671,7 +1603,20 @@
       "liga": "Tenis ATP",
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
-      "evento": "Raphael Collignon vs. TBD",
+      "evento": "Raphael Collignon vs. Nishesh Basavareddy",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "BNP Paribas Fortis European Open",
+      "categoria": "Men's Singles",
+      "evento": "Remy Bertola vs. David Goffin",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1750,32 +1695,6 @@
       "torneo": "Grand Prix Auvergne-Rhône-Alpes",
       "categoria": "Men's Singles",
       "evento": "TBD vs. Arthur Fery",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-19",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. Botic Van De Zandschulp",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-19",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. David Goffin",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
