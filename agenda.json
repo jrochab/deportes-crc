@@ -1,92 +1,13 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-19T16:13:25.658483-06:00",
+  "actualizado": "2026-10-19T22:25:34.263343-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-25",
-  "cantidad_eventos": 296,
+  "cantidad_eventos": 290,
   "eventos": [
     {
       "fecha": "2026-10-19",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Sporting San José vs. AD San Carlos",
-      "canales": [
-        "FOX"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-19",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Tampa Bay Rays vs. Cleveland Guardians",
-      "canales": [
-        "TBS",
-        "truTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-19",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Escorpiones Belén vs. Puntarenas FC",
-      "canales": [
-        "FOX"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-19",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "Emerson Jones vs. Ann Li",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-19",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "Magda Linette vs. Claire Liu",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-19",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "Zhang Shuai vs. Tereza Valentova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-19",
-      "hora": "22:00",
+      "hora": "22:40",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -99,7 +20,20 @@
     },
     {
       "fecha": "2026-10-19",
-      "hora": "22:00",
+      "hora": "22:40",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Kinoshita Group Japan Open",
+      "categoria": "Women's Singles",
+      "evento": "Himeno Sakatsume vs. Katie Boulter",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-19",
+      "hora": "22:40",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -138,7 +72,7 @@
     },
     {
       "fecha": "2026-10-19",
-      "hora": "23:00",
+      "hora": "23:30",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -157,7 +91,7 @@
       "liga": "Tenis WTA",
       "torneo": "Kinoshita Group Japan Open",
       "categoria": "Women's Singles",
-      "evento": "Kimberly Birrell vs. Kayla Day",
+      "evento": "Sofia Kenin vs. Kayla Day",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -691,20 +625,6 @@
       "evento": "New York Knicks vs. Philadelphia 76ers",
       "canales": [
         "NBC"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-20",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Tampa Bay Rays vs. Cleveland Guardians",
-      "canales": [
-        "TBS",
-        "truTV"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -2678,7 +2598,7 @@
       "zona": "Costa Rica",
       "deporte": "Béisbol",
       "liga": "MLB",
-      "evento": "Milwaukee Brewers vs. Rays/Guardians",
+      "evento": "Milwaukee Brewers vs. Tampa Bay Rays",
       "canales": [
         "Fox"
       ],
@@ -3243,7 +3163,7 @@
       "zona": "Costa Rica",
       "deporte": "Béisbol",
       "liga": "MLB",
-      "evento": "Milwaukee Brewers vs. Rays/Guardians",
+      "evento": "Milwaukee Brewers vs. Tampa Bay Rays",
       "canales": [
         "Fox"
       ],
