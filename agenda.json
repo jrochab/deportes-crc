@@ -1,166 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-21T05:33:33.463571-06:00",
+  "actualizado": "2026-10-21T10:59:48.499796-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-27",
-  "cantidad_eventos": 438,
+  "cantidad_eventos": 425,
   "eventos": [
-    {
-      "fecha": "2026-10-21",
-      "hora": "05:50",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Doubles",
-      "evento": "Santiago Gonzalez / Hendrik Jebens vs. Jakub Paul / Matej Vocel",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "06:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Almaty Open",
-      "categoria": "Men's Doubles",
-      "evento": "Anirudh Chandrasekar / Ray Ho vs. N.Sriram Balaji / Evan King",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "06:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Martin Landaluce vs. Stan Wawrinka",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "06:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Doubles",
-      "evento": "Michael Geerts / Joran Vliegen vs. Guido Andreozzi / Manuel Guinard",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "06:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Singles",
-      "evento": "Jacob Fearnley vs. Clement Chidekh",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "07:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Doubles",
-      "evento": "Andrew Paulson / Nino Serdarusic vs. David Stevenson / Marcus Willis",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "07:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Doubles",
-      "evento": "Orlando Luz / Rafael Matos vs. Francisco Cerundolo / Alex Michelsen",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "07:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Almaty Open",
-      "categoria": "Men's Doubles",
-      "evento": "Amir Omarkhanov / Beibit Zhukayev vs. Lucas Miedler / Neil Oberleitner",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "07:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Felix Balshaw vs. Corentin Moutet",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "08:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Doubles",
-      "evento": "Ariel Behar / Joshua Paris vs. Finn Reynolds / James Watt",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "08:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Almaty Open",
-      "categoria": "Men's Singles",
-      "evento": "Mikhail Kukushkin vs. Stefanos Tsitsipas",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "10:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Singles",
-      "evento": "Remy Bertola vs. David Goffin",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-21",
       "hora": "11:00",
@@ -235,7 +79,9 @@
       "liga": "NBA",
       "evento": "Washington Wizards vs. Milwaukee Bucks",
       "canales": [
+        "Bucks App",
         "MNMT",
+        "MyMi",
         "NBA League Pass"
       ],
       "importante": false,
@@ -249,6 +95,7 @@
       "liga": "NBA",
       "evento": "Brooklyn Nets vs. Charlotte Hornets",
       "canales": [
+        "DAZN (YES)",
         "NBA League Pass"
       ],
       "importante": false,
@@ -275,6 +122,7 @@
       "liga": "NBA",
       "evento": "Toronto Raptors vs. Chicago Bulls",
       "canales": [
+        "CHSN",
         "NBA League Pass"
       ],
       "importante": false,
@@ -288,6 +136,9 @@
       "liga": "NBA",
       "evento": "Memphis Grizzlies vs. Utah Jazz",
       "canales": [
+        "DAZN MEM",
+        "Jazz+",
+        "KJZZ-TV",
         "NBA League Pass"
       ],
       "importante": false,
@@ -301,7 +152,10 @@
       "liga": "NBA",
       "evento": "New Orleans Pelicans vs. Indiana Pacers",
       "canales": [
-        "NBA League Pass"
+        "DAZN IND",
+        "GCSEN",
+        "NBA League Pass",
+        "Pelicans.com"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -314,6 +168,8 @@
       "liga": "NBA",
       "evento": "Houston Rockets vs. Dallas Mavericks",
       "canales": [
+        "KFAA-TV",
+        "MavsTV",
         "NBA League Pass"
       ],
       "importante": false,
@@ -340,7 +196,10 @@
       "liga": "NBA",
       "evento": "Portland Trail Blazers vs. Phoenix Suns",
       "canales": [
-        "NBA League Pass"
+        "BlazerVision",
+        "KUNP 16",
+        "NBA League Pass",
+        "Suns Live"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -366,7 +225,8 @@
       "liga": "NBA",
       "evento": "LA Clippers vs. Sacramento Kings",
       "canales": [
-        "NBA League Pass"
+        "NBA League Pass",
+        "NBC Sports CA"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -389,32 +249,6 @@
       "hora": "22:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Brandon Nakashima vs. Kyrian Jacquet",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Daniel Altmaier vs. Borna Gojo",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Kinoshita Group Japan Open",
       "categoria": "Women's Doubles",
@@ -428,88 +262,10 @@
       "hora": "22:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Luca Van Assche vs. Valentin Vacherot",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Doubles",
-      "evento": "Matisse Bobichon / Kilian Feldbausch vs. TBD / TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Kinoshita Group Japan Open",
       "categoria": "Women's Singles",
       "evento": "Moyuka Uchijima vs. Mary Stoiana",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Doubles",
-      "evento": "TBD / TBD vs. Julian Cash / Lloyd Glasspool",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. Flavio Cobolli",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Taylor Fritz vs. Pierre-Hugues Herbert",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -613,7 +369,7 @@
       "liga": "Tenis WTA",
       "torneo": "BNB Ningbo Open",
       "categoria": "Women's Doubles",
-      "evento": "Leylah Fernandez / Marta Kostyuk vs. Cristina Bucsa / Nicole Melichar-Martinez",
+      "evento": "Desirae Krawczyk / Fanny Stollar vs. Mariia Kozyreva / Maia Lumsden",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -652,7 +408,7 @@
       "liga": "Tenis ATP",
       "torneo": "Almaty Open",
       "categoria": "Men's Doubles",
-      "evento": "TBD / TBD vs. Jason Kubler / John Peers",
+      "evento": "Nathaniel Lammons / Jackson Withrow vs. Jason Kubler / John Peers",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -662,10 +418,10 @@
       "hora": "03:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "BNB Ningbo Open",
-      "categoria": "Women's Doubles",
-      "evento": "Desirae Krawczyk / Fanny Stollar vs. Mariia Kozyreva / Maia Lumsden",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Doubles",
+      "evento": "Theo Arribage / Albano Olivetti vs. Santiago Gonzalez / Hendrik Jebens",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -678,7 +434,7 @@
       "liga": "Tenis ATP",
       "torneo": "Almaty Open",
       "categoria": "Men's Doubles",
-      "evento": "Jean-Julien Rojer / Theodore Winegar vs. TBD / TBD",
+      "evento": "Jean-Julien Rojer / Theodore Winegar vs. N.Sriram Balaji / Evan King",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -692,6 +448,32 @@
       "torneo": "Almaty Open",
       "categoria": "Men's Singles",
       "evento": "Sho Shimabukuro vs. Daniil Medvedev",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "04:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Doubles",
+      "evento": "Matisse Bobichon / Kilian Feldbausch vs. Romain Arneodo / Ugo Blanchet",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "04:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Doubles",
+      "evento": "Andrew Paulson / Nino Serdarusic vs. Julian Cash / Lloyd Glasspool",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -724,6 +506,32 @@
     },
     {
       "fecha": "2026-10-22",
+      "hora": "06:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
+      "evento": "Daniel Altmaier vs. Borna Gojo",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "06:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
+      "evento": "Luca Van Assche vs. Valentin Vacherot",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
       "hora": "07:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
@@ -743,7 +551,20 @@
       "liga": "Tenis ATP",
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Doubles",
-      "evento": "Nicolas Barrientos / David Pel vs. TBD / TBD",
+      "evento": "Nicolas Barrientos / David Pel vs. Guido Andreozzi / Manuel Guinard",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "07:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
+      "evento": "Taylor Fritz vs. Pierre-Hugues Herbert",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -769,7 +590,7 @@
       "liga": "Tenis ATP",
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
-      "evento": "Zizou Bergs vs. TBD",
+      "evento": "Zizou Bergs vs. Damir Dzumhur",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -783,6 +604,32 @@
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Doubles",
       "evento": "Raphael Collignon / David Goffin vs. Constantin Frantzén / Robert Galloway",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "11:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
+      "evento": "Stan Wawrinka vs. Flavio Cobolli",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "12:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
+      "evento": "Brandon Nakashima vs. Kyrian Jacquet",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -818,6 +665,32 @@
       "hora": "22:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Almaty Open",
+      "categoria": "Men's Singles",
+      "evento": "Adrian Mannarino vs. Nikoloz Basilashvili",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Doubles",
+      "evento": "Ariel Behar / Joshua Paris vs. TBD / TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Kinoshita Group Japan Open",
       "categoria": "Women's Singles",
@@ -834,7 +707,33 @@
       "liga": "Tenis ATP",
       "torneo": "Almaty Open",
       "categoria": "Men's Doubles",
-      "evento": "Daniel Cukierman / Fernando Romboli vs. TBD / TBD",
+      "evento": "Daniel Cukierman / Fernando Romboli vs. Lucas Miedler / Neil Oberleitner",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "BNB Ningbo Open",
+      "categoria": "Women's Singles",
+      "evento": "Ekaterina Alexandrova vs. Leylah Fernandez",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "BNP Paribas Fortis European Open",
+      "categoria": "Men's Doubles",
+      "evento": "Francisco Cerundolo / Alex Michelsen vs. TBD / TBD",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -847,7 +746,7 @@
       "liga": "Tenis ATP",
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
-      "evento": "Francisco Cerundolo vs. TBD",
+      "evento": "Francisco Cerundolo vs. Clement Chidekh",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -860,7 +759,7 @@
       "liga": "Tenis ATP",
       "torneo": "Almaty Open",
       "categoria": "Men's Singles",
-      "evento": "James Duckworth vs. TBD",
+      "evento": "James Duckworth vs. Stefanos Tsitsipas",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -886,7 +785,7 @@
       "liga": "Tenis WTA",
       "torneo": "BNB Ningbo Open",
       "categoria": "Women's Singles",
-      "evento": "Marie Bouzkova vs. TBD",
+      "evento": "Marie Bouzkova vs. Sara Bejlek",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -900,6 +799,19 @@
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Doubles",
       "evento": "Sadio Doumbia / Bart Stevens vs. TBD / TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "BNB Ningbo Open",
+      "categoria": "Women's Doubles",
+      "evento": "TBD / TBD vs. Cristina Bucsa / Nicole Melichar-Martinez",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -935,6 +847,19 @@
       "hora": "22:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
+      "evento": "TBD vs. Corentin Moutet",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Kinoshita Group Japan Open",
       "categoria": "Women's Singles",
@@ -948,32 +873,6 @@
       "hora": "22:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "BNB Ningbo Open",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. Leylah Fernandez",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Almaty Open",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. Nikoloz Basilashvili",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
       "liga": "Tenis ATP",
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
@@ -988,32 +887,6 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
       "torneo": "Almaty Open",
       "categoria": "Men's Singles",
       "evento": "TBD vs. TBD",
@@ -1094,32 +967,6 @@
       "liga": "Tenis ATP",
       "torneo": "Grand Prix Auvergne-Rhône-Alpes",
       "categoria": "Men's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
@@ -1195,10 +1042,10 @@
       "hora": "22:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "BNB Ningbo Open",
-      "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
+      "liga": "Tenis ATP",
+      "torneo": "BNP Paribas Fortis European Open",
+      "categoria": "Men's Singles",
+      "evento": "TBD vs. Tallon Griekspoor",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1211,7 +1058,7 @@
       "liga": "Tenis WTA",
       "torneo": "BNB Ningbo Open",
       "categoria": "Women's Doubles",
-      "evento": "Ulrikke Eikeri / Quinn Gleason vs. TBD / TBD",
+      "evento": "Ulrikke Eikeri / Quinn Gleason vs. Erin Routliffe / Aldila Sutjiadi",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1303,6 +1150,8 @@
       "liga": "NBA",
       "evento": "Milwaukee Bucks vs. Chicago Bulls",
       "canales": [
+        "Bucks App",
+        "MyMi",
         "NBA League Pass"
       ],
       "importante": false,
@@ -1342,6 +1191,8 @@
       "liga": "NBA",
       "evento": "Indiana Pacers vs. Dallas Mavericks",
       "canales": [
+        "KFAA-TV",
+        "MavsTV",
         "NBA League Pass"
       ],
       "importante": false,
@@ -1355,6 +1206,7 @@
       "liga": "NBA",
       "evento": "Orlando Magic vs. Minnesota Timberwolves",
       "canales": [
+        "DAZN MIN",
         "NBA League Pass"
       ],
       "importante": false,
@@ -1421,7 +1273,11 @@
       "liga": "NBA",
       "evento": "Utah Jazz vs. New Orleans Pelicans",
       "canales": [
-        "NBA League Pass"
+        "GCSEN",
+        "Jazz+",
+        "KJZZ-TV",
+        "NBA League Pass",
+        "Pelicans.com"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -1460,7 +1316,10 @@
       "liga": "NBA",
       "evento": "Los Angeles Lakers vs. LA Clippers",
       "canales": [
-        "NBA League Pass"
+        "ClipperVision",
+        "NBA League Pass",
+        "Spectrum Sports Net",
+        "Spectrum Sports Net +"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -1473,6 +1332,8 @@
       "liga": "NBA",
       "evento": "Sacramento Kings vs. Portland Trail Blazers",
       "canales": [
+        "BlazerVision",
+        "KUNP 16",
         "NBA League Pass"
       ],
       "importante": false,
@@ -1884,6 +1745,7 @@
       "liga": "NBA",
       "evento": "Cleveland Cavaliers vs. Brooklyn Nets",
       "canales": [
+        "DAZN (YES)",
         "NBA League Pass"
       ],
       "importante": false,
@@ -1897,6 +1759,7 @@
       "liga": "NBA",
       "evento": "Philadelphia 76ers vs. Milwaukee Bucks",
       "canales": [
+        "MyMi",
         "NBA TV"
       ],
       "importante": false,
@@ -1963,6 +1826,7 @@
       "liga": "NBA",
       "evento": "Atlanta Hawks vs. Houston Rockets",
       "canales": [
+        "Atlanta News First",
         "NBA League Pass"
       ],
       "importante": false,
@@ -1976,7 +1840,9 @@
       "liga": "NBA",
       "evento": "Denver Nuggets vs. New Orleans Pelicans",
       "canales": [
-        "NBA League Pass"
+        "GCSEN",
+        "NBA League Pass",
+        "Pelicans.com"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -2002,7 +1868,9 @@
       "liga": "NBA",
       "evento": "Phoenix Suns vs. Golden State Warriors",
       "canales": [
-        "NBA TV"
+        "NBA TV",
+        "NBC Sports BA",
+        "Suns Live"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -2428,7 +2296,11 @@
       "liga": "NBA",
       "evento": "Utah Jazz vs. Los Angeles Lakers",
       "canales": [
-        "NBA League Pass"
+        "Jazz+",
+        "KJZZ-TV",
+        "NBA League Pass",
+        "Spectrum Sports Net",
+        "Spectrum Sports Net +"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -2454,6 +2326,7 @@
       "liga": "NBA",
       "evento": "Brooklyn Nets vs. Indiana Pacers",
       "canales": [
+        "DAZN (YES)",
         "NBA League Pass"
       ],
       "importante": false,
@@ -2493,6 +2366,8 @@
       "liga": "NBA",
       "evento": "Oklahoma City Thunder vs. LA Clippers",
       "canales": [
+        "ClipperVision",
+        "KSBI",
         "NBA League Pass"
       ],
       "importante": false,
@@ -2532,6 +2407,7 @@
       "liga": "NBA",
       "evento": "Sacramento Kings vs. Memphis Grizzlies",
       "canales": [
+        "DAZN MEM",
         "NBA League Pass"
       ],
       "importante": false,
@@ -4458,6 +4334,7 @@
       "liga": "NBA",
       "evento": "Cleveland Cavaliers vs. Minnesota Timberwolves",
       "canales": [
+        "DAZN MIN",
         "NBA League Pass"
       ],
       "importante": false,
@@ -4484,6 +4361,8 @@
       "liga": "NBA",
       "evento": "Miami Heat vs. Dallas Mavericks",
       "canales": [
+        "KFAA-TV",
+        "MavsTV",
         "NBA TV"
       ],
       "importante": false,
@@ -4497,6 +4376,9 @@
       "liga": "NBA",
       "evento": "Milwaukee Bucks vs. Indiana Pacers",
       "canales": [
+        "Bucks App",
+        "DAZN IND",
+        "MyMi",
         "NBA League Pass"
       ],
       "importante": false,
@@ -4510,7 +4392,10 @@
       "liga": "NBA",
       "evento": "Oklahoma City Thunder vs. Phoenix Suns",
       "canales": [
-        "NBA League Pass"
+        "Arizona's Family 3TV",
+        "KSBI",
+        "NBA League Pass",
+        "Suns Live"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -4549,6 +4434,9 @@
       "liga": "NBA",
       "evento": "Utah Jazz vs. Memphis Grizzlies",
       "canales": [
+        "DAZN MEM",
+        "Jazz+",
+        "KJZZ-TV",
         "NBA League Pass"
       ],
       "importante": false,
@@ -4614,7 +4502,9 @@
       "liga": "NBA",
       "evento": "Boston Celtics vs. Brooklyn Nets",
       "canales": [
-        "NBA League Pass"
+        "DAZN (YES)",
+        "NBA League Pass",
+        "NBC Sports BO"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -4640,7 +4530,8 @@
       "liga": "NBA",
       "evento": "San Antonio Spurs vs. Sacramento Kings",
       "canales": [
-        "NBA League Pass"
+        "NBA League Pass",
+        "NBC Sports CA"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -4666,7 +4557,10 @@
       "liga": "NBA",
       "evento": "Los Angeles Lakers vs. Portland Trail Blazers",
       "canales": [
-        "Peacock"
+        "NBC",
+        "Peacock",
+        "Spectrum Sports Net",
+        "Spectrum Sports Net +"
       ],
       "importante": false,
       "fuente": "ESPN"
