@@ -1,63 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-21T10:59:48.499796-06:00",
+  "actualizado": "2026-10-21T15:29:45.231856-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-27",
-  "cantidad_eventos": 425,
+  "cantidad_eventos": 421,
   "eventos": [
-    {
-      "fecha": "2026-10-21",
-      "hora": "11:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Lorenzo Musetti vs. Moise Kouame",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "11:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Singles",
-      "evento": "Jan-Lennard Struff vs. Gauthier Onclin",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "12:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "LaLiga",
-      "evento": "Levante vs. Athletic Club",
-      "canales": [
-        "ESPN Deportes",
-        "ESPN+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "12:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Tommy Paul vs. Benjamin Bonzi",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-21",
       "hora": "17:00",
@@ -225,8 +172,9 @@
       "liga": "NBA",
       "evento": "LA Clippers vs. Sacramento Kings",
       "canales": [
-        "NBA League Pass",
-        "NBC Sports CA"
+        "ClipperVision",
+        "KTLA",
+        "NBA League Pass"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -538,7 +486,7 @@
       "liga": "Tenis ATP",
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
-      "evento": "Alex Michelsen vs. TBD",
+      "evento": "Alex Michelsen vs. David Goffin",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -782,6 +730,19 @@
       "hora": "22:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
+      "evento": "Lorenzo Musetti vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "BNB Ningbo Open",
       "categoria": "Women's Singles",
@@ -848,9 +809,9 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
-      "evento": "TBD vs. Corentin Moutet",
+      "evento": "TBD vs. Jan-Lennard Struff",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -874,19 +835,6 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis ATP",
-      "torneo": "BNP Paribas Fortis European Open",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
       "torneo": "Almaty Open",
       "categoria": "Men's Singles",
       "evento": "TBD vs. TBD",
@@ -928,19 +876,6 @@
       "liga": "Tenis ATP",
       "torneo": "Almaty Open",
       "categoria": "Men's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
@@ -1046,6 +981,19 @@
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
       "evento": "TBD vs. Tallon Griekspoor",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
+      "evento": "Tommy Paul vs. Corentin Moutet",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1826,7 +1774,6 @@
       "liga": "NBA",
       "evento": "Atlanta Hawks vs. Houston Rockets",
       "canales": [
-        "Atlanta News First",
         "NBA League Pass"
       ],
       "importante": false,
@@ -2340,6 +2287,7 @@
       "liga": "NBA",
       "evento": "Minnesota Timberwolves vs. Toronto Raptors",
       "canales": [
+        "DAZN MIN",
         "NBA TV"
       ],
       "importante": false,
