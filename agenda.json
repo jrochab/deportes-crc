@@ -1,88 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-20T15:28:12.915764-06:00",
+  "actualizado": "2026-10-20T22:15:56.619176-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-26",
-  "cantidad_eventos": 378,
+  "cantidad_eventos": 372,
   "eventos": [
-    {
-      "fecha": "2026-10-20",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New York Knicks vs. Philadelphia 76ers",
-      "canales": [
-        "NBC"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-20",
-      "hora": "19:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "San Antonio Spurs vs. Oklahoma City Thunder",
-      "canales": [
-        "NBC"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-20",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "Ashlyn Krueger vs. Lanlana Tararudee",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-20",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "Sinja Kraus vs. Talia Gibson",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-20",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Doubles",
-      "evento": "Claire Liu / Kaitlin Quevedo vs. Miriam Skoch / Jesika Maleckova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-20",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "Lilli Tagger vs. Tereza Valentova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-20",
       "hora": "23:00",
@@ -756,6 +678,19 @@
       "liga": "Tenis ATP",
       "torneo": "Grand Prix Auvergne-Rhône-Alpes",
       "categoria": "Men's Singles",
+      "evento": "Brandon Nakashima vs. Kyrian Jacquet",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-21",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
+      "categoria": "Men's Singles",
       "evento": "Daniel Altmaier vs. Borna Gojo",
       "canales": [],
       "importante": false,
@@ -1067,19 +1002,6 @@
       "deporte": "Tenis",
       "liga": "Tenis ATP",
       "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. Kyrian Jacquet",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
       "categoria": "Men's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
@@ -1187,6 +1109,19 @@
       "canales": [
         "ESPN"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Kinoshita Group Japan Open",
+      "categoria": "Women's Singles",
+      "evento": "Ashlyn Krueger vs. Talia Gibson",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1470,19 +1405,6 @@
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
       "categoria": "Women's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
@@ -1613,7 +1535,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Brest vs. Nice",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1651,7 +1575,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Ipswich Town vs. Nottingham Forest",
-      "canales": [],
+      "canales": [
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1975,7 +1901,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Aston Villa vs. Manchester City",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2091,7 +2020,11 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Arsenal vs. Everton",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2102,7 +2035,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Coventry City vs. Fulham",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2127,7 +2062,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Toulouse vs. Troyes",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2164,7 +2101,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Chelsea vs. Tottenham Hotspur",
-      "canales": [],
+      "canales": [
+        "Peacock",
+        "Tele"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2202,7 +2142,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Lens vs. Paris FC",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2514,7 +2456,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "AS Monaco vs. Lille",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2538,7 +2482,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Crystal Palace vs. Newcastle United",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2562,7 +2509,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Hull City vs. Brentford",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2573,7 +2522,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Liverpool vs. Brighton & Hove Albion",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2584,7 +2535,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Manchester United vs. AFC Bournemouth",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2644,7 +2597,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Marseille vs. Le Havre AC",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2679,7 +2634,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Sunderland vs. Leeds United",
-      "canales": [],
+      "canales": [
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
