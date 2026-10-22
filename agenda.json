@@ -1,36 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-22T10:59:30.817078-06:00",
+  "actualizado": "2026-10-22T15:24:21.338654-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-28",
-  "cantidad_eventos": 398,
+  "cantidad_eventos": 396,
   "eventos": [
-    {
-      "fecha": "2026-10-22",
-      "hora": "11:05",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Stan Wawrinka vs. Flavio Cobolli",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "12:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Grand Prix Auvergne-Rhône-Alpes",
-      "categoria": "Men's Singles",
-      "evento": "Brandon Nakashima vs. Kyrian Jacquet",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-22",
       "hora": "17:00",
@@ -351,7 +325,7 @@
       "liga": "Tenis ATP",
       "torneo": "Grand Prix Auvergne-Rhône-Alpes",
       "categoria": "Men's Singles",
-      "evento": "TBD vs. TBD",
+      "evento": "Brandon Nakashima vs. Flavio Cobolli",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
