@@ -1,213 +1,13 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-21T15:29:45.231856-06:00",
+  "actualizado": "2026-10-21T22:16:12.184298-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-27",
-  "cantidad_eventos": 421,
+  "cantidad_eventos": 407,
   "eventos": [
     {
       "fecha": "2026-10-21",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Orlando Magic vs. Atlanta Hawks",
-      "canales": [
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Washington Wizards vs. Milwaukee Bucks",
-      "canales": [
-        "Bucks App",
-        "MNMT",
-        "MyMi",
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "17:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Brooklyn Nets vs. Charlotte Hornets",
-      "canales": [
-        "DAZN (YES)",
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "17:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Miami Heat vs. Minnesota Timberwolves",
-      "canales": [
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "17:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Toronto Raptors vs. Chicago Bulls",
-      "canales": [
-        "CHSN",
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Memphis Grizzlies vs. Utah Jazz",
-      "canales": [
-        "DAZN MEM",
-        "Jazz+",
-        "KJZZ-TV",
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New Orleans Pelicans vs. Indiana Pacers",
-      "canales": [
-        "DAZN IND",
-        "GCSEN",
-        "NBA League Pass",
-        "Pelicans.com"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Houston Rockets vs. Dallas Mavericks",
-      "canales": [
-        "KFAA-TV",
-        "MavsTV",
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Los Angeles Lakers vs. Golden State Warriors",
-      "canales": [
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Portland Trail Blazers vs. Phoenix Suns",
-      "canales": [
-        "BlazerVision",
-        "KUNP 16",
-        "NBA League Pass",
-        "Suns Live"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "Kayla Day vs. Antonia Ruzic",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "LA Clippers vs. Sacramento Kings",
-      "canales": [
-        "ClipperVision",
-        "KTLA",
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "Zeynep Sonmez vs. Ann Li",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Doubles",
-      "evento": "Isabelle Haverlag / Lilli Tagger vs. Ingrid Neel / Giuliana Olmos",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-21",
-      "hora": "22:00",
+      "hora": "22:20",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -626,6 +426,19 @@
       "hora": "22:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Kinoshita Group Japan Open",
+      "categoria": "Women's Singles",
+      "evento": "Antonia Ruzic vs. Katie Boulter",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-22",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
       "liga": "Tenis ATP",
       "torneo": "Grand Prix Auvergne-Rhône-Alpes",
       "categoria": "Men's Doubles",
@@ -720,7 +533,7 @@
       "liga": "Tenis WTA",
       "torneo": "Kinoshita Group Japan Open",
       "categoria": "Women's Singles",
-      "evento": "Lilli Tagger vs. TBD",
+      "evento": "Lilli Tagger vs. Ann Li",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -812,19 +625,6 @@
       "torneo": "BNP Paribas Fortis European Open",
       "categoria": "Men's Singles",
       "evento": "TBD vs. Jan-Lennard Struff",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. Katie Boulter",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1694,6 +1494,7 @@
       "evento": "Cleveland Cavaliers vs. Brooklyn Nets",
       "canales": [
         "DAZN (YES)",
+        "DAZN CLE",
         "NBA League Pass"
       ],
       "importante": false,
@@ -1707,6 +1508,7 @@
       "liga": "NBA",
       "evento": "Philadelphia 76ers vs. Milwaukee Bucks",
       "canales": [
+        "Bucks App",
         "MyMi",
         "NBA TV"
       ],
@@ -1735,6 +1537,9 @@
       "liga": "NBA",
       "evento": "Dallas Mavericks vs. San Antonio Spurs",
       "canales": [
+        "DAZN SAS",
+        "KFAA-TV",
+        "MavsTV",
         "NBA League Pass"
       ],
       "importante": false,
@@ -1815,8 +1620,8 @@
       "liga": "NBA",
       "evento": "Phoenix Suns vs. Golden State Warriors",
       "canales": [
+        "Arizona's Family CBS5",
         "NBA TV",
-        "NBC Sports BA",
         "Suns Live"
       ],
       "importante": false,
@@ -2274,6 +2079,7 @@
       "evento": "Brooklyn Nets vs. Indiana Pacers",
       "canales": [
         "DAZN (YES)",
+        "DAZN IND",
         "NBA League Pass"
       ],
       "importante": false,
@@ -4451,8 +4257,7 @@
       "evento": "Boston Celtics vs. Brooklyn Nets",
       "canales": [
         "DAZN (YES)",
-        "NBA League Pass",
-        "NBC Sports BO"
+        "NBA League Pass"
       ],
       "importante": false,
       "fuente": "ESPN"
