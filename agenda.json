@@ -1,65 +1,13 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-22T15:24:21.338654-06:00",
+  "actualizado": "2026-10-22T22:20:00.939724-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-28",
-  "cantidad_eventos": 396,
+  "cantidad_eventos": 392,
   "eventos": [
     {
       "fecha": "2026-10-22",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Philadelphia 76ers vs. Cleveland Cavaliers",
-      "canales": [
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "19:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Oklahoma City Thunder vs. Denver Nuggets",
-      "canales": [
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Kinoshita Group Japan Open",
-      "categoria": "Women's Singles",
-      "evento": "Lilli Tagger vs. Ann Li",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "BNB Ningbo Open",
-      "categoria": "Women's Doubles",
-      "evento": "Ulrikke Eikeri / Quinn Gleason vs. Erin Routliffe / Aldila Sutjiadi",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-22",
-      "hora": "22:00",
+      "hora": "22:30",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
