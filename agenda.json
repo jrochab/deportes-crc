@@ -1,26 +1,13 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-24T01:32:49.170333-06:00",
+  "actualizado": "2026-10-24T01:48:33.254379-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-10-30",
   "cantidad_eventos": 469,
   "eventos": [
     {
       "fecha": "2026-10-24",
-      "hora": "01:40",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Guangzhou Open",
-      "categoria": "Women's Singles",
-      "evento": "Emerson Jones vs. Hong Yi Cody Wong",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-24",
-      "hora": "01:45",
+      "hora": "01:50",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -46,13 +33,13 @@
     },
     {
       "fecha": "2026-10-24",
-      "hora": "02:30",
+      "hora": "02:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "Guangzhou Open",
       "categoria": "Women's Singles",
-      "evento": "Cheuk Ying Shek vs. Harriet Dart",
+      "evento": "Emerson Jones vs. Hong Yi Cody Wong",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -131,6 +118,19 @@
       "torneo": "Toray Pan Pacific Open Tennis",
       "categoria": "Women's Singles",
       "evento": "Zhang Shuai vs. Kayla Day",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-24",
+      "hora": "03:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Guangzhou Open",
+      "categoria": "Women's Singles",
+      "evento": "Cheuk Ying Shek vs. Harriet Dart",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -228,19 +228,6 @@
     },
     {
       "fecha": "2026-10-24",
-      "hora": "04:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Guangzhou Open",
-      "categoria": "Women's Singles",
-      "evento": "Teodora Kostovic vs. Qu Yihan",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-24",
       "hora": "04:30",
       "zona": "Costa Rica",
       "deporte": "Tenis",
@@ -287,6 +274,19 @@
       "torneo": "Swiss Indoors Basel",
       "categoria": "Men's Singles",
       "evento": "Zachary Svajda vs. Juan Manuel Cerundolo",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-24",
+      "hora": "05:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Guangzhou Open",
+      "categoria": "Women's Singles",
+      "evento": "Teodora Kostovic vs. Qu Yihan",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
