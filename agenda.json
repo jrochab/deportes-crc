@@ -1,392 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-28T16:26:33.442696-06:00",
+  "actualizado": "2026-10-28T23:21:18.839595-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-11-03",
-  "cantidad_eventos": 437,
+  "cantidad_eventos": 414,
   "eventos": [
-    {
-      "fecha": "2026-10-28",
-      "hora": "16:35",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Doubles",
-      "evento": "Maria Fernanda Navarro Oliva / Zuzanna Pawlikowska vs. Sofia Costoulas / Valeriya Strakhova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Atlanta Hawks vs. Miami Heat",
-      "canales": [
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Cleveland Cavaliers vs. Washington Wizards",
-      "canales": [
-        "DAZN CLE",
-        "MNMT",
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Detroit Pistons vs. Charlotte Hornets",
-      "canales": [
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Singles",
-      "evento": "Elizabeth Mandlik vs. Selena Janicijevic",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Indiana Pacers vs. Philadelphia 76ers",
-      "canales": [
-        "DAZN IND",
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "17:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Toronto Raptors vs. Orlando Magic",
-      "canales": [
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Chicago Bulls vs. New York Knicks",
-      "canales": [
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Milwaukee Bucks vs. Houston Rockets",
-      "canales": [
-        "Bucks App",
-        "MyMi",
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Minnesota Timberwolves vs. Golden State Warriors",
-      "canales": [
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New Orleans Pelicans vs. Denver Nuggets",
-      "canales": [
-        "GCSEN",
-        "NBA League Pass",
-        "Pelicans.com"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Tampa Bay Rays vs. Milwaukee Brewers",
-      "canales": [
-        "Fox"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Singles",
-      "evento": "Adriana Reami vs. Fiona Ferro",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Utah Jazz vs. San Antonio Spurs",
-      "canales": [
-        "DAZN SAS",
-        "Jazz+",
-        "KJZZ-TV",
-        "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "19:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Dallas Mavericks vs. Oklahoma City Thunder",
-      "canales": [
-        "ESPN",
-        "KFAA-TV",
-        "KSBI",
-        "MavsTV",
-        "Thunder App"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "19:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Toray Pan Pacific Open Tennis",
-      "categoria": "Women's Singles",
-      "evento": "Kimberly Birrell vs. Alycia Parks",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Toray Pan Pacific Open Tennis",
-      "categoria": "Women's Singles",
-      "evento": "Elise Mertens vs. Leylah Fernandez",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "LA Clippers vs. Los Angeles Lakers",
-      "canales": [
-        "ClipperVision",
-        "KTLA",
-        "NBA League Pass",
-        "Spectrum Sports Net",
-        "Spectrum Sports Net +"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Toray Pan Pacific Open Tennis",
-      "categoria": "Women's Doubles",
-      "evento": "Tereza Mihalikova / Olivia Nicholls vs. Ingrid Neel / Giuliana Olmos",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Singles",
-      "evento": "Alicia Herrero Linana vs. Tamara Zidansek",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Singles",
-      "evento": "Bianca Andreescu vs. Diletta Cherubini",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Doubles",
-      "evento": "Carole Monnet / Alexandra Osborne vs. Marian Gomez Pezuela Cano / Nadia Podoroska",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Singles",
-      "evento": "Martina Colmegna vs. Tatjana Maria",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Singles",
-      "evento": "Miriam Bulgaru vs. Nadia Podoroska",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Toray Pan Pacific Open Tennis",
-      "categoria": "Women's Doubles",
-      "evento": "Storm Hunter / Maya Joint vs. Ellen Perez / Demi  Schuurs",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Singles",
-      "evento": "Valeriya Strakhova vs. Polona Hercog",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Guangzhou Open",
-      "categoria": "Women's Singles",
-      "evento": "Katerina Siniakova vs. Claire Liu",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-28",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Guangzhou Open",
-      "categoria": "Women's Singles",
-      "evento": "Zeynep Sonmez vs. Jil Teichmann",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-10-28",
       "hora": "23:30",
@@ -402,7 +20,7 @@
     },
     {
       "fecha": "2026-10-29",
-      "hora": "00:30",
+      "hora": "00:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -428,7 +46,7 @@
     },
     {
       "fecha": "2026-10-29",
-      "hora": "02:00",
+      "hora": "01:30",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -896,6 +514,32 @@
     },
     {
       "fecha": "2026-10-29",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Singles",
+      "evento": "Miriam Bulgaru vs. Nadia Podoroska",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Singles",
+      "evento": "Valeriya Strakhova vs. Polona Hercog",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
       "hora": "15:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
@@ -903,6 +547,45 @@
       "torneo": "Curitiba Open",
       "categoria": "Women's Doubles",
       "evento": "Nauhany Vitoria Leme Da Silva / Laura Pigossi vs. Julia Konishi Camargo Silva / Marjorie Souza",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "15:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Singles",
+      "evento": "Adriana Reami vs. Fiona Ferro",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Doubles",
+      "evento": "Carole Monnet / Alexandra Osborne vs. Marian Gomez Pezuela Cano / Nadia Podoroska",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Singles",
+      "evento": "Martina Colmegna vs. Tatjana Maria",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -924,6 +607,19 @@
       "fecha": "2026-10-29",
       "hora": "18:00",
       "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Singles",
+      "evento": "Bianca Andreescu vs. Diletta Cherubini",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "18:00",
+      "zona": "Costa Rica",
       "deporte": "Baloncesto",
       "liga": "NBA",
       "evento": "New Orleans Pelicans vs. Sacramento Kings",
@@ -932,6 +628,19 @@
         "NBA League Pass",
         "Pelicans.com"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "19:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Singles",
+      "evento": "Alicia Herrero Linana vs. Tamara Zidansek",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -985,7 +694,59 @@
       "liga": "Tenis WTA",
       "torneo": "Toray Pan Pacific Open Tennis",
       "categoria": "Women's Singles",
+      "evento": "Alycia Parks vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Singles",
+      "evento": "Carole Monnet vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Guangzhou Open",
+      "categoria": "Women's Singles",
+      "evento": "Claire Liu vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Toray Pan Pacific Open Tennis",
+      "categoria": "Women's Singles",
       "evento": "Diana Shnaider vs. Alexandra Eala",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Singles",
+      "evento": "Elizabeth Mandlik vs. TBD",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1100,6 +861,19 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
+      "torneo": "Toray Pan Pacific Open Tennis",
+      "categoria": "Women's Singles",
+      "evento": "Leylah Fernandez vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
       "torneo": "Valle D'Aosta Ladies Open",
       "categoria": "Women's Doubles",
       "evento": "Madeleine Brooks / Lisa Zaar vs. Enola Chiesa / Rositsa Dencheva",
@@ -1129,6 +903,19 @@
       "torneo": "Toray Pan Pacific Open Tennis",
       "categoria": "Women's Singles",
       "evento": "Maya Joint vs. Kamilla Rakhimova",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Curitiba Open",
+      "categoria": "Women's Singles",
+      "evento": "Nauhany Vitoria Leme Da Silva vs. TBD",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1191,6 +978,19 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
+      "torneo": "Queretaro Open",
+      "categoria": "Women's Doubles",
+      "evento": "Sofia Johnson / Mell Reasco Gonzalez vs. Sofia Costoulas / Valeriya Strakhova",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
       "torneo": "Curitiba Open",
       "categoria": "Women's Singles",
       "evento": "Solana Sierra vs. TBD",
@@ -1233,6 +1033,19 @@
       "torneo": "Queretaro Open",
       "categoria": "Women's Doubles",
       "evento": "TBD / TBD vs. Miriam Bulgaru / Polona Hercog",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-10-29",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Toray Pan Pacific Open Tennis",
+      "categoria": "Women's Doubles",
+      "evento": "TBD / TBD vs. Tereza Mihalikova / Olivia Nicholls",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1412,73 +1225,8 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
-      "torneo": "Guangzhou Open",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-29",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Toray Pan Pacific Open Tennis",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-29",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Toray Pan Pacific Open Tennis",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-29",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
       "torneo": "Toray Pan Pacific Open Tennis",
       "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-29",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Toray Pan Pacific Open Tennis",
-      "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-29",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Curitiba Open",
-      "categoria": "Women's Singles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
@@ -1544,45 +1292,6 @@
       "liga": "Tenis WTA",
       "torneo": "Queretaro Open",
       "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-29",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-29",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-29",
-      "hora": "22:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Queretaro Open",
-      "categoria": "Women's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
@@ -1772,19 +1481,6 @@
       "canales": [
         "DAZN IND",
         "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-30",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Milwaukee Brewers vs. Tampa Bay Rays",
-      "canales": [
-        "Fox"
       ],
       "importante": false,
       "fuente": "ESPN"
@@ -2375,19 +2071,6 @@
       "canales": [
         "DAZN MEM",
         "NBA League Pass"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-10-31",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Béisbol",
-      "liga": "MLB",
-      "evento": "Milwaukee Brewers vs. Tampa Bay Rays",
-      "canales": [
-        "Fox"
       ],
       "importante": false,
       "fuente": "ESPN"
