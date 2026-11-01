@@ -1,36 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-10-31T23:35:20.414942-06:00",
+  "actualizado": "2026-11-01T01:06:10.887959-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-11-06",
-  "cantidad_eventos": 360,
+  "periodo_hasta": "2026-11-07",
+  "cantidad_eventos": 392,
   "eventos": [
-    {
-      "fecha": "2026-11-01",
-      "hora": "00:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Guangzhou Open",
-      "categoria": "Women's Doubles",
-      "evento": "Polina Kudermetova / Maria Timofeeva vs. I-hsuan Cho / Yi-Tsen Cho",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-01",
-      "hora": "00:40",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Toray Pan Pacific Open Tennis",
-      "categoria": "Women's Doubles",
-      "evento": "Sara Errani / Jasmine Paolini vs. Gabriela Dabrowski / Luisa Stefani",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-01",
       "hora": "02:30",
@@ -765,6 +739,19 @@
       "liga": "Tenis WTA",
       "torneo": "Prudential Hong Kong Tennis Open",
       "categoria": "Women's Singles",
+      "evento": "Alexandra Shubladze vs. Katie Volynets",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Prudential Hong Kong Tennis Open",
+      "categoria": "Women's Singles",
       "evento": "Alina Charaeva vs. Antonia Ruzic",
       "canales": [],
       "importante": false,
@@ -1220,7 +1207,7 @@
       "liga": "Tenis WTA",
       "torneo": "Prudential Hong Kong Tennis Open",
       "categoria": "Women's Singles",
-      "evento": "Liudmila Samsonova vs. TBD",
+      "evento": "Liudmila Samsonova vs. Himeno Sakatsume",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1337,7 +1324,7 @@
       "liga": "Tenis WTA",
       "torneo": "Prudential Hong Kong Tennis Open",
       "categoria": "Women's Singles",
-      "evento": "Maria Sakkari vs. TBD",
+      "evento": "Maria Sakkari vs. Carol Young Suh Lee",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1506,7 +1493,7 @@
       "liga": "Tenis WTA",
       "torneo": "Prudential Hong Kong Tennis Open",
       "categoria": "Women's Singles",
-      "evento": "Paula Badosa vs. Kaitlin Quevedo",
+      "evento": "Paula Badosa vs. Aliaksandra Sasnovich",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1699,35 +1686,9 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
-      "torneo": "Prudential Hong Kong Tennis Open",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. Claire Liu",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-01",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
       "torneo": "Chennai Open",
       "categoria": "Women's Singles",
       "evento": "TBD vs. Jeline Vandromme",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-01",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Prudential Hong Kong Tennis Open",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. Katie Volynets",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -2153,6 +2114,19 @@
       "hora": "23:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Prudential Hong Kong Tennis Open",
+      "categoria": "Women's Singles",
+      "evento": "Tatiana Prozorova vs. Claire Liu",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
       "liga": "Tenis ATP",
       "torneo": "Rolex Paris Masters",
       "categoria": "Men's Singles",
@@ -2195,7 +2169,7 @@
       "liga": "Tenis WTA",
       "torneo": "Prudential Hong Kong Tennis Open",
       "categoria": "Women's Singles",
-      "evento": "Tereza Valentova vs. Xinran Sun",
+      "evento": "Tereza Valentova vs. Elena Pridankina",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -4725,6 +4699,437 @@
       "liga": "Tenis WTA",
       "torneo": "Angola Ladies Open",
       "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "06:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Leeds United vs. Tottenham Hotspur",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "07:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Málaga vs. Racing Santander",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "08:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Cagliari vs. Frosinone",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "08:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Torino vs. Lecce",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "08:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "Borussia Dortmund vs. SV Elversberg",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "08:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "Mainz vs. Bayern Munich",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "08:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "RB Leipzig vs. FC Augsburg",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "08:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "SC Paderborn 07 vs. Eintracht Frankfurt",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "09:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Arsenal vs. Hull City",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "09:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Fulham vs. Newcastle United",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "09:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Espanyol vs. Deportivo",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "10:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "AJ Auxerre vs. Paris FC",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "11:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Parma vs. Bologna",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "11:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Nottingham Forest vs. Manchester City",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "11:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Osasuna vs. Athletic Club",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "11:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "VfB Stuttgart vs. Werder Bremen",
+      "canales": [
+        "USA Net"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "13:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "AS Roma vs. Sassuolo",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "13:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "Paris Saint-Germain vs. Troyes",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Valencia vs. Real Madrid",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "16:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Indiana Pacers vs. Denver Nuggets",
+      "canales": [
+        "DAZN IND",
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "AD San Carlos vs. Pérez Zeledón",
+      "canales": [
+        "FOX"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Atlanta Hawks vs. Brooklyn Nets",
+      "canales": [
+        "DAZN (YES)"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Cleveland Cavaliers vs. New York Knicks",
+      "canales": [
+        "DAZN CLE",
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Oklahoma City Thunder vs. Washington Wizards",
+      "canales": [
+        "KSBI",
+        "MNMT",
+        "Thunder App"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "19:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Golden State Warriors vs. Orlando Magic",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Alajuelense vs. Sporting San José",
+      "canales": [
+        "FUTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Phoenix Suns vs. Houston Rockets",
+      "canales": [
+        "Arizona's Family 3TV",
+        "Suns Live"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "21:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Portland Trail Blazers vs. San Antonio Spurs",
+      "canales": [
+        "BlazerVision",
+        "DAZN SAS",
+        "KUNP 16"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Rolex Paris Masters",
+      "categoria": "Men's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Rolex Paris Masters",
+      "categoria": "Men's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Prudential Hong Kong Tennis Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Prudential Hong Kong Tennis Open",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Chennai Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Angola Ladies Open",
+      "categoria": "Women's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
