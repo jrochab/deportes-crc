@@ -1,23 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-03T17:06:28.716852-06:00",
+  "actualizado": "2026-11-03T23:49:38.279314-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-11-09",
-  "cantidad_eventos": 317,
+  "cantidad_eventos": 340,
   "eventos": [
-    {
-      "fecha": "2026-11-03",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Sporting San José vs. Pérez Zeledón",
-      "canales": [
-        "FOX"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-04",
       "hora": "00:00",
@@ -39,7 +26,7 @@
       "liga": "Tenis WTA",
       "torneo": "Prudential Hong Kong Tennis Open",
       "categoria": "Women's Singles",
-      "evento": "Sofia Kenin vs. Leylah Fernandez",
+      "evento": "Sofia Kenin vs. Mika Stojsavljevic",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -715,7 +702,7 @@
       "liga": "Tenis WTA",
       "torneo": "Reto Win Tennis Cali Open",
       "categoria": "Women's Singles",
-      "evento": "TBD vs. Alice Tubello",
+      "evento": "Marina Bassols Ribera vs. Alice Tubello",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -2074,7 +2061,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Hamburg SV vs. Borussia Mönchengladbach",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2085,7 +2074,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Toulouse vs. Strasbourg",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2109,7 +2100,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Everton vs. Coventry City",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2414,7 +2408,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Leeds United vs. Tottenham Hotspur",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2465,7 +2462,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Borussia Dortmund vs. SV Elversberg",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2476,7 +2475,10 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Mainz vs. Bayern Munich",
-      "canales": [],
+      "canales": [
+        "Fandango",
+        "Hulu"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2487,7 +2489,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "RB Leipzig vs. FC Augsburg",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2498,7 +2502,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "SC Paderborn 07 vs. Eintracht Frankfurt",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2509,7 +2515,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Arsenal vs. Hull City",
-      "canales": [],
+      "canales": [
+        "Peacock",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2520,7 +2529,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Fulham vs. Newcastle United",
-      "canales": [],
+      "canales": [
+        "Peacock",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2545,7 +2557,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "AJ Auxerre vs. Paris FC",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2569,7 +2583,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Nottingham Forest vs. Manchester City",
-      "canales": [],
+      "canales": [
+        "NBC",
+        "Tele"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2620,7 +2637,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Paris Saint-Germain vs. Troyes",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3196,7 +3215,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Brighton & Hove Albion vs. Brentford",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3207,7 +3228,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Crystal Palace vs. Liverpool",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3231,7 +3254,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Ipswich Town vs. AFC Bournemouth",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3255,7 +3280,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Stade Rennais vs. Lille",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3266,7 +3293,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Sunderland vs. Chelsea",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3277,7 +3307,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "FC Cologne vs. Bayer Leverkusen",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3301,7 +3333,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Angers vs. Nice",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3312,7 +3346,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Brest vs. Lyon",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3323,7 +3359,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Le Havre AC vs. Lorient",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3334,7 +3372,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Le Mans vs. AS Monaco",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3345,7 +3385,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Manchester United vs. Aston Villa",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3356,7 +3399,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "SC Freiburg vs. 1. FC Union Berlin",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3419,7 +3464,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "TSG Hoffenheim vs. Schalke 04",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3443,7 +3490,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Lens vs. Marseille",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3463,11 +3512,37 @@
     },
     {
       "fecha": "2026-11-08",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Linda Noskova vs. Elena Rybakina",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-08",
       "hora": "14:30",
       "zona": "Costa Rica",
       "deporte": "Baloncesto",
       "liga": "NBA",
       "evento": "Chicago Bulls vs. Philadelphia 76ers",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-08",
+      "hora": "15:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Jessica Pegula vs. Coco Gauff",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -3502,6 +3577,19 @@
     },
     {
       "fecha": "2026-11-08",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Sara Errani / Jasmine Paolini vs. Katerina Siniakova / Taylor Townsend",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-08",
       "hora": "18:00",
       "zona": "Costa Rica",
       "deporte": "Baloncesto",
@@ -3527,6 +3615,19 @@
         "KFAA-TV",
         "MavsTV"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-08",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Ellen Perez / Demi  Schuurs vs. Cristina Bucsa / Nicole Melichar-Martinez",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3793,6 +3894,45 @@
     },
     {
       "fecha": "2026-11-09",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Karolina Muchova vs. Aryna Sabalenka",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "15:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Elina Svitolina vs. Mirra Andreeva",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Elise Mertens / Zhang Shuai vs. Gabriela Dabrowski / Luisa Stefani",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
       "hora": "18:00",
       "zona": "Costa Rica",
       "deporte": "Baloncesto",
@@ -3828,6 +3968,19 @@
       "canales": [
         "NBCSN"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Su-Wei Hsieh / Jelena Ostapenko vs. Guo Hanyu / Kristina Mladenovic",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -3900,6 +4053,214 @@
         "NBA TV",
         "Pelicans.com"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Coco Gauff vs. Elena Rybakina",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Cristina Bucsa / Nicole Melichar-Martinez vs. Katerina Siniakova / Taylor Townsend",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Elina Svitolina vs. Aryna Sabalenka",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Elise Mertens / Zhang Shuai vs. Guo Hanyu / Kristina Mladenovic",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Elise Mertens / Zhang Shuai vs. Su-Wei Hsieh / Jelena Ostapenko",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Ellen Perez / Demi  Schuurs vs. Katerina Siniakova / Taylor Townsend",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Guo Hanyu / Kristina Mladenovic vs. Gabriela Dabrowski / Luisa Stefani",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Jessica Pegula vs. Elena Rybakina",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Karolina Muchova vs. Elina Svitolina",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Karolina Muchova vs. Mirra Andreeva",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Linda Noskova vs. Coco Gauff",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Linda Noskova vs. Jessica Pegula",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Singles",
+      "evento": "Mirra Andreeva vs. Aryna Sabalenka",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Sara Errani / Jasmine Paolini vs. Cristina Bucsa / Nicole Melichar-Martinez",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Sara Errani / Jasmine Paolini vs. Ellen Perez / Demi  Schuurs",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "WTA Finals",
+      "categoria": "Women's Doubles",
+      "evento": "Su-Wei Hsieh / Jelena Ostapenko vs. Gabriela Dabrowski / Luisa Stefani",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
