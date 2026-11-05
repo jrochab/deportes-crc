@@ -1,264 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-04T17:29:14.425746-06:00",
+  "actualizado": "2026-11-05T00:09:54.589675-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-11-10",
-  "cantidad_eventos": 294,
+  "periodo_hasta": "2026-11-11",
+  "cantidad_eventos": 296,
   "eventos": [
-    {
-      "fecha": "2026-11-04",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Detroit Pistons vs. Philadelphia 76ers",
-      "canales": [
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Puntarenas FC vs. AD San Carlos",
-      "canales": [
-        "FOX"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Washington Wizards vs. Atlanta Hawks",
-      "canales": [
-        "MNMT"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Boston Celtics vs. Milwaukee Bucks",
-      "canales": [
-        "Bucks App",
-        "MyMi"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Brooklyn Nets vs. Charlotte Hornets",
-      "canales": [
-        "DAZN (YES)"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New York Knicks vs. Chicago Bulls",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Memphis Grizzlies vs. Indiana Pacers",
-      "canales": [
-        "DAZN IND",
-        "DAZN MEM"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New Orleans Pelicans vs. Utah Jazz",
-      "canales": [
-        "GCSEN",
-        "Jazz+",
-        "KJZZ-TV",
-        "Pelicans.com"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Oklahoma City Thunder vs. Cleveland Cavaliers",
-      "canales": [
-        "DAZN CLE",
-        "KSBI",
-        "Thunder App"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "19:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Houston Rockets vs. Minnesota Timberwolves",
-      "canales": [
-        "DAZN MIN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Denver Nuggets vs. Toronto Raptors",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Escorpiones Belén vs. Alajuelense",
-      "canales": [
-        "FOX"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Phoenix Suns vs. Portland Trail Blazers",
-      "canales": [
-        "Arizona's Family 3TV",
-        "BlazerVision",
-        "KUNP 16",
-        "Suns Live"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "San Antonio Spurs vs. Dallas Mavericks",
-      "canales": [
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Sacramento Kings vs. Los Angeles Lakers",
-      "canales": [
-        "Spectrum Sports Net",
-        "Spectrum Sports Net +"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "21:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "LA Clippers vs. Miami Heat",
-      "canales": [
-        "ClipperVision"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-04",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Reto Win Tennis Cali Open",
-      "categoria": "Women's Doubles",
-      "evento": "Sofia Costoulas / Despina Papamichail vs. Maria Lourdes Carle / Laura Pigossi",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-05",
-      "hora": "00:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Prudential Hong Kong Tennis Open",
-      "categoria": "Women's Singles",
-      "evento": "Alexandra Shubladze vs. Elena Pridankina",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-05",
-      "hora": "00:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Prudential Hong Kong Tennis Open",
-      "categoria": "Women's Singles",
-      "evento": "Antonia Ruzic vs. Wang Xinyu",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-05",
       "hora": "01:30",
@@ -824,6 +570,19 @@
       "hora": "23:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Reto Win Tennis Cali Open",
+      "categoria": "Women's Doubles",
+      "evento": "Anna Rogers / Allura Zamarripa vs. TBD / TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-05",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
       "liga": "Tenis ATP",
       "torneo": "Rolex Paris Masters",
       "categoria": "Men's Doubles",
@@ -1191,19 +950,6 @@
       "liga": "Tenis WTA",
       "torneo": "Reto Win Tennis Cali Open",
       "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-05",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Reto Win Tennis Cali Open",
-      "categoria": "Women's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
@@ -3873,6 +3619,285 @@
       "liga": "Tenis WTA",
       "torneo": "DIRECTV Open Presentado por Compesar",
       "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Indiana Pacers vs. Washington Wizards",
+      "canales": [
+        "DAZN IND",
+        "MNMT"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New York Knicks vs. Cleveland Cavaliers",
+      "canales": [
+        "ESPN"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Toronto Raptors vs. Boston Celtics",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Chicago Bulls vs. San Antonio Spurs",
+      "canales": [
+        "DAZN SAS"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Memphis Grizzlies vs. Denver Nuggets",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Milwaukee Bucks vs. Los Angeles Lakers",
+      "canales": [
+        "Bucks App",
+        "MyMi",
+        "Spectrum Sports Net",
+        "Spectrum Sports Net +"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New Orleans Pelicans vs. Brooklyn Nets",
+      "canales": [
+        "DAZN (YES)",
+        "GCSEN",
+        "Pelicans.com"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Utah Jazz vs. Orlando Magic",
+      "canales": [
+        "Jazz+",
+        "KJZZ-TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "20:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Houston Rockets vs. Golden State Warriors",
+      "canales": [
+        "ESPN"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "21:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Portland Trail Blazers vs. Oklahoma City Thunder",
+      "canales": [
+        "BlazerVision",
+        "KSBI",
+        "KUNP 16",
+        "Thunder App"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Bybit Stockholm Open",
+      "categoria": "Men's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Bybit Stockholm Open",
+      "categoria": "Men's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Bybit Stockholm Open",
+      "categoria": "Men's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Bybit Stockholm Open",
+      "categoria": "Men's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Bybit Stockholm Open",
+      "categoria": "Men's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
