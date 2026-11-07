@@ -1,267 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-06T13:11:25.691448-06:00",
+  "actualizado": "2026-11-06T23:35:39.818483-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-11-12",
-  "cantidad_eventos": 247,
+  "cantidad_eventos": 232,
   "eventos": [
-    {
-      "fecha": "2026-11-06",
-      "hora": "13:20",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Reto Win Tennis Cali Open",
-      "categoria": "Women's Singles",
-      "evento": "Bianca Andreescu vs. Alice Tubello",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "13:30",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Bundesliga",
-      "evento": "Hamburg SV vs. Borussia Mönchengladbach",
-      "canales": [
-        "Fandango"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "13:45",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Ligue 1",
-      "evento": "Toulouse vs. Strasbourg",
-      "canales": [
-        "beIn Sports"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "13:45",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Serie A",
-      "evento": "Venezia vs. Udinese",
-      "canales": [
-        "CBSSN",
-        "Paramount+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "14:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Premier League",
-      "evento": "Everton vs. Coventry City",
-      "canales": [
-        "USA Net",
-        "Universo"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "14:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "LaLiga",
-      "evento": "Sevilla vs. Alavés",
-      "canales": [
-        "ESPN Deportes",
-        "ESPN+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "14:20",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Reto Win Tennis Cali Open",
-      "categoria": "Women's Doubles",
-      "evento": "Anna Rogers / Allura Zamarripa vs. Valentina Mediorreal Arias / Maria Paulina Perez Garcia",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "14:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Rolex Paris Masters",
-      "categoria": "Men's Singles",
-      "evento": "Nuno Borges vs. Casper Ruud",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Atlanta Hawks vs. Washington Wizards",
-      "canales": [
-        "MNMT"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Charlotte Hornets vs. Boston Celtics",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Cleveland Cavaliers vs. Philadelphia 76ers",
-      "canales": [
-        "Prime Video"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Dallas Mavericks vs. Utah Jazz",
-      "canales": [
-        "Jazz+",
-        "KFAA-TV",
-        "KJZZ-TV",
-        "MavsTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Memphis Grizzlies vs. Oklahoma City Thunder",
-      "canales": [
-        "DAZN MEM",
-        "KSBI",
-        "Thunder App"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Milwaukee Bucks vs. Toronto Raptors",
-      "canales": [
-        "Bucks App",
-        "MyMi"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New Orleans Pelicans vs. Minnesota Timberwolves",
-      "canales": [
-        "GCSEN",
-        "Pelicans.com"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Los Angeles Lakers vs. Portland Trail Blazers",
-      "canales": [
-        "Prime Video",
-        "Spectrum Sports Net",
-        "Spectrum Sports Net +"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Sacramento Kings vs. San Antonio Spurs",
-      "canales": [
-        "DAZN SAS"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Reto Win Tennis Cali Open",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-06",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Reto Win Tennis Cali Open",
-      "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-07",
       "hora": "00:00",
@@ -645,6 +388,19 @@
       "fecha": "2026-11-07",
       "hora": "09:00",
       "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Reto Win Tennis Cali Open",
+      "categoria": "Women's Doubles",
+      "evento": "Anna Rogers / Allura Zamarripa vs. Valentina Mediorreal Arias / Maria Paulina Perez Garcia",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "09:00",
+      "zona": "Costa Rica",
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Arsenal vs. Hull City",
@@ -652,6 +408,19 @@
         "Peacock",
         "Universo"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "09:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Reto Win Tennis Cali Open",
+      "categoria": "Women's Singles",
+      "evento": "Bianca Andreescu vs. Alice Tubello",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -691,7 +460,20 @@
       "liga": "Tenis ATP",
       "torneo": "Rolex Paris Masters",
       "categoria": "Men's Singles",
-      "evento": "TBD vs. TBD",
+      "evento": "Carlos Alcaraz vs. Casper Ruud",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Reto Win Tennis Cali Open",
+      "categoria": "Women's Singles",
+      "evento": "Leyre Romero Gormaz vs. TBD",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -758,7 +540,7 @@
       "liga": "Tenis ATP",
       "torneo": "Rolex Paris Masters",
       "categoria": "Men's Doubles",
-      "evento": "Quentin Halys / Pierre-Hugues Herbert vs. TBD / TBD",
+      "evento": "Quentin Halys / Pierre-Hugues Herbert vs. Harri Heliovaara / Henry Patten",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -786,6 +568,19 @@
       "canales": [
         "beIn Sports"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "12:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Reto Win Tennis Cali Open",
+      "categoria": "Women's Doubles",
+      "evento": "TBD / TBD vs. Maria Lourdes Carle / Laura Pigossi",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
