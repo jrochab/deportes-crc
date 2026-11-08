@@ -1,143 +1,13 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-07T23:37:27.214752-06:00",
+  "actualizado": "2026-11-08T07:06:46.111824-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-11-13",
-  "cantidad_eventos": 191,
+  "periodo_hasta": "2026-11-14",
+  "cantidad_eventos": 188,
   "eventos": [
     {
       "fecha": "2026-11-08",
-      "hora": "02:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Prudential Hong Kong Tennis Open",
-      "categoria": "Women's Singles",
-      "evento": "Alexandra Eala vs. Claire Liu",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "04:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Angola Ladies Open",
-      "categoria": "Women's Singles",
-      "evento": "Sofya Lansere vs. Anna Blinkova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "04:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Chennai Open",
-      "categoria": "Women's Doubles",
-      "evento": "Vaishnavi Adkar / Rutuja Bhosale vs. Naima Karamoko / Simona Waltert",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "05:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Bybit Stockholm Open",
-      "categoria": "Men's Singles",
-      "evento": "Borna Gojo vs. Nikoloz Basilashvili",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "05:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Bybit Stockholm Open",
-      "categoria": "Men's Singles",
-      "evento": "Lorenzo Sonego vs. Inaki Montes-De La Torre",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "05:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Rolex Paris Masters",
-      "categoria": "Men's Doubles",
-      "evento": "Christian Harrison / Neal Skupski vs. Quentin Halys / Pierre-Hugues Herbert",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "05:30",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Serie A",
-      "evento": "Napoli vs. Lazio",
-      "canales": [
-        "Paramount+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "06:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Bybit Stockholm Open",
-      "categoria": "Men's Singles",
-      "evento": "Aleksandr Shevchenko vs. Jacob Fearnley",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "06:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Bybit Stockholm Open",
-      "categoria": "Men's Singles",
-      "evento": "Toby Samuel vs. Adrian Mannarino",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "07:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "LaLiga",
-      "evento": "Elche vs. Real Betis",
-      "canales": [
-        "ESPN+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-08",
-      "hora": "07:00",
+      "hora": "07:30",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -2516,6 +2386,100 @@
       "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New Orleans Pelicans vs. Denver Nuggets",
+      "canales": [
+        "GCSEN",
+        "Pelicans.com"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Cleveland Cavaliers vs. Dallas Mavericks",
+      "canales": [
+        "KFAA-TV",
+        "MavsTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Memphis Grizzlies vs. Brooklyn Nets",
+      "canales": [
+        "DAZN (YES)",
+        "DAZN MEM"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Miami Heat vs. Detroit Pistons",
+      "canales": [
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Minnesota Timberwolves vs. Chicago Bulls",
+      "canales": [
+        "DAZN MIN"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "FAGE WTA Finals Indian Wells",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "FAGE WTA Finals Indian Wells",
       "categoria": "Women's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
