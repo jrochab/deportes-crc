@@ -1,171 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-07T15:40:18.537072-06:00",
+  "actualizado": "2026-11-07T23:37:27.214752-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-11-13",
-  "cantidad_eventos": 199,
+  "cantidad_eventos": 191,
   "eventos": [
-    {
-      "fecha": "2026-11-07",
-      "hora": "16:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Indiana Pacers vs. Denver Nuggets",
-      "canales": [
-        "DAZN IND",
-        "NBA TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "AD San Carlos vs. Pérez Zeledón",
-      "canales": [
-        "FOX"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Atlanta Hawks vs. Brooklyn Nets",
-      "canales": [
-        "DAZN (YES)"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Cleveland Cavaliers vs. New York Knicks",
-      "canales": [
-        "DAZN CLE",
-        "NBA TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Oklahoma City Thunder vs. Washington Wizards",
-      "canales": [
-        "KSBI",
-        "MNMT",
-        "Thunder App"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "19:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Golden State Warriors vs. Orlando Magic",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Liga Promerica de Costa Rica",
-      "evento": "Alajuelense vs. Sporting San José",
-      "canales": [
-        "FUTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Phoenix Suns vs. Houston Rockets",
-      "canales": [
-        "Arizona's Family 3TV",
-        "Suns Live"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Portland Trail Blazers vs. San Antonio Spurs",
-      "canales": [
-        "BlazerVision",
-        "DAZN SAS",
-        "KUNP 16"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Bybit Stockholm Open",
-      "categoria": "Men's Doubles",
-      "evento": "Petr Nouza / Michael Venus vs. Constantin Frantzén / Bart Stevens",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Bybit Stockholm Open",
-      "categoria": "Men's Doubles",
-      "evento": "Sadio Doumbia / David Pel vs. Erik Grevelius / Adam Heinonen",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "23:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Prudential Hong Kong Tennis Open",
-      "categoria": "Women's Doubles",
-      "evento": "Hao-Ching Chan / Miyu Kato vs. Talia Gibson / Maddison Inglis",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-08",
       "hora": "02:00",
@@ -456,6 +295,32 @@
     },
     {
       "fecha": "2026-11-08",
+      "hora": "09:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Singles",
+      "evento": "Maria Camila Torres Murcia vs. Katrina Scott",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-08",
+      "hora": "09:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Singles",
+      "evento": "Sara Alejandra Lozano Avellaneda vs. Carolina Alves",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-08",
       "hora": "09:15",
       "zona": "Costa Rica",
       "deporte": "Fútbol",
@@ -537,6 +402,19 @@
       "hora": "10:30",
       "zona": "Costa Rica",
       "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Singles",
+      "evento": "Isabella Collazos vs. Dalila Jakupovic",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-08",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
       "liga": "Tenis ATP",
       "torneo": "Bybit Stockholm Open",
       "categoria": "Men's Singles",
@@ -556,6 +434,19 @@
         "Tele",
         "USA Net"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-08",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "DIRECTV Open Presentado por Compesar",
+      "categoria": "Women's Singles",
+      "evento": "Maria Jose Sanchez Uribe vs. Maria Herazo Gonzalez",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
