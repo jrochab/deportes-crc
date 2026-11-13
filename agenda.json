@@ -1,89 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-12T17:26:29.966376-06:00",
+  "actualizado": "2026-11-13T00:07:40.031665-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-11-18",
-  "cantidad_eventos": 125,
+  "periodo_hasta": "2026-11-19",
+  "cantidad_eventos": 129,
   "eventos": [
-    {
-      "fecha": "2026-11-12",
-      "hora": "17:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Doubles",
-      "evento": "Cristina Bucsa / Nicole Melichar-Martinez vs. Katerina Siniakova / Taylor Townsend",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-12",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Philadelphia 76ers vs. Toronto Raptors",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-12",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Washington Wizards vs. Detroit Pistons",
-      "canales": [
-        "MNMT"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-12",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Doubles",
-      "evento": "Sara Errani / Jasmine Paolini vs. Ellen Perez / Demi  Schuurs",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Minnesota Timberwolves vs. Dallas Mavericks",
-      "canales": [
-        "KFAA-TV",
-        "MavsTV",
-        "NBA TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-12",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Phoenix Suns vs. Charlotte Hornets",
-      "canales": [
-        "Arizona's Family 3TV",
-        "Suns Live"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-13",
       "hora": "04:30",
@@ -368,6 +289,32 @@
       "hora": "23:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "FAGE WTA Finals Indian Wells",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. Jessica Pegula",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "FAGE WTA Finals Indian Wells",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. Linda Noskova",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
       "liga": "Tenis ATP",
       "torneo": "Bybit Stockholm Open",
       "categoria": "Men's Singles",
@@ -384,32 +331,6 @@
       "liga": "Tenis ATP",
       "torneo": "Bybit Stockholm Open",
       "categoria": "Men's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Singles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
@@ -1655,6 +1576,142 @@
         "Arizona's Family 3TV",
         "Suns Live"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Automovilismo",
+      "liga": "Fórmula 1",
+      "evento": "Heineken Las Vegas Grand Prix",
+      "canales": [
+        "Apple TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Memphis Grizzlies vs. Golden State Warriors",
+      "canales": [
+        "DAZN MEM"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Milwaukee Bucks vs. Portland Trail Blazers",
+      "canales": [
+        "BlazerVision",
+        "Bucks App",
+        "KUNP 16",
+        "MyMi"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Minnesota Timberwolves vs. New York Knicks",
+      "canales": [
+        "DAZN MIN",
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "San Antonio Spurs vs. LA Clippers",
+      "canales": [
+        "ClipperVision",
+        "DAZN SAS",
+        "KTLA"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     }
