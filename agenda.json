@@ -1,237 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-13T13:28:25.993796-06:00",
+  "actualizado": "2026-11-13T23:53:52.553243-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-11-19",
-  "cantidad_eventos": 121,
+  "cantidad_eventos": 108,
   "eventos": [
-    {
-      "fecha": "2026-11-13",
-      "hora": "14:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Singles",
-      "evento": "Diana Shnaider vs. Mirra Andreeva",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "15:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Singles",
-      "evento": "Elina Svitolina vs. Aryna Sabalenka",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Doubles",
-      "evento": "Su-Wei Hsieh / Jelena Ostapenko vs. Gabriela Dabrowski / Luisa Stefani",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Indiana Pacers vs. New York Knicks",
-      "canales": [
-        "Prime Video"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Orlando Magic vs. Milwaukee Bucks",
-      "canales": [
-        "Bucks App",
-        "MyMi"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Doubles",
-      "evento": "Elise Mertens / Zhang Shuai vs. Guo Hanyu / Kristina Mladenovic",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Chicago Bulls vs. Atlanta Hawks",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Miami Heat vs. Cleveland Cavaliers",
-      "canales": [
-        "DAZN CLE"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New Orleans Pelicans vs. Memphis Grizzlies",
-      "canales": [
-        "DAZN MEM",
-        "GCSEN",
-        "Pelicans.com"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "19:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Houston Rockets vs. Utah Jazz",
-      "canales": [
-        "Jazz+",
-        "KJZZ-TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "San Antonio Spurs vs. Golden State Warriors",
-      "canales": [
-        "Prime Video"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Sacramento Kings vs. Portland Trail Blazers",
-      "canales": [
-        "BlazerVision",
-        "KUNP 16"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "21:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "LA Clippers vs. Oklahoma City Thunder",
-      "canales": [
-        "ClipperVision",
-        "KSBI",
-        "KTLA",
-        "Thunder App"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Doubles",
-      "evento": "Katerina Siniakova / Taylor Townsend vs. TBD / TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Singles",
-      "evento": "Mirra Andreeva vs. Jessica Pegula",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Doubles",
-      "evento": "Sara Errani / Jasmine Paolini vs. TBD / TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "FAGE WTA Finals Indian Wells",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. Linda Noskova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-14",
       "hora": "06:00",
@@ -266,7 +39,7 @@
       "liga": "Tenis WTA",
       "torneo": "DIRECTV Open Presentado por Compesar",
       "categoria": "Women's Doubles",
-      "evento": "Veronika Erjavec / Zhibek Kulambayeva vs. TBD / TBD",
+      "evento": "Veronika Erjavec / Zhibek Kulambayeva vs. Laura Samson / Tamara Zidansek",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -280,6 +53,45 @@
       "torneo": "DIRECTV Open Presentado por Compesar",
       "categoria": "Women's Singles",
       "evento": "Elizabeth Mandlik vs. Bianca Andreescu",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "FAGE WTA Finals Indian Wells",
+      "categoria": "Women's Singles",
+      "evento": "Mirra Andreeva vs. Jessica Pegula",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "15:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "FAGE WTA Finals Indian Wells",
+      "categoria": "Women's Singles",
+      "evento": "Elina Svitolina vs. Linda Noskova",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "FAGE WTA Finals Indian Wells",
+      "categoria": "Women's Doubles",
+      "evento": "Katerina Siniakova / Taylor Townsend vs. Gabriela Dabrowski / Luisa Stefani",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -309,6 +121,19 @@
         "KFAA-TV",
         "MavsTV"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "FAGE WTA Finals Indian Wells",
+      "categoria": "Women's Doubles",
+      "evento": "Sara Errani / Jasmine Paolini vs. Guo Hanyu / Kristina Mladenovic",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
