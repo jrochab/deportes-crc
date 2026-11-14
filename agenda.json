@@ -1,23 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-13T23:53:52.553243-06:00",
+  "actualizado": "2026-11-14T07:19:21.186398-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-11-19",
-  "cantidad_eventos": 108,
+  "periodo_hasta": "2026-11-20",
+  "cantidad_eventos": 126,
   "eventos": [
-    {
-      "fecha": "2026-11-14",
-      "hora": "06:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Bybit Stockholm Open",
-      "categoria": "Men's Singles",
-      "evento": "Thiago Agustin Tirante vs. Taylor Fritz",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-14",
       "hora": "07:30",
@@ -1431,6 +1418,255 @@
       "liga": "Tenis WTA",
       "torneo": "LP Open by IND",
       "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "13:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "Bayern Munich vs. FC Cologne",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "13:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "Troyes vs. Le Havre AC",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Athletic Club vs. Espanyol",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Atlanta Hawks vs. Charlotte Hornets",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Brooklyn Nets vs. Orlando Magic",
+      "canales": [
+        "DAZN (YES)"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Cleveland Cavaliers vs. Indiana Pacers",
+      "canales": [
+        "DAZN CLE"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Detroit Pistons vs. Toronto Raptors",
+      "canales": [
+        "Prime Video"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Chicago Bulls vs. Washington Wizards",
+      "canales": [
+        "MNMT"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Oklahoma City Thunder vs. New Orleans Pelicans",
+      "canales": [
+        "GCSEN",
+        "KSBI",
+        "Pelicans.com",
+        "Thunder App"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Escorpiones Belén vs. AD San Carlos",
+      "canales": [
+        "FOX"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "20:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Utah Jazz vs. Phoenix Suns",
+      "canales": [
+        "Arizona's Family 3TV",
+        "Jazz+",
+        "KJZZ-TV",
+        "Suns Live"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "21:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Denver Nuggets vs. Houston Rockets",
+      "canales": [
+        "Prime Video"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "21:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Los Angeles Lakers vs. Sacramento Kings",
+      "canales": [
+        "Spectrum Sports Net",
+        "Spectrum Sports Net +"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Nitto ATP Finals",
+      "categoria": "Men's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Nitto ATP Finals",
+      "categoria": "Men's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Nitto ATP Finals",
+      "categoria": "Men's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Nitto ATP Finals",
+      "categoria": "Men's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Singles",
       "evento": "TBD vs. TBD",
       "canales": [],
       "importante": false,
