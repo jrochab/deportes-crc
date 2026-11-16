@@ -1,76 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-15T16:41:18.889553-06:00",
+  "actualizado": "2026-11-15T23:54:42.170919-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-11-21",
-  "cantidad_eventos": 141,
+  "cantidad_eventos": 136,
   "eventos": [
-    {
-      "fecha": "2026-11-15",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Boston Celtics vs. Dallas Mavericks",
-      "canales": [
-        "KFAA-TV",
-        "MavsTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-15",
-      "hora": "17:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Toronto Raptors vs. New York Knicks",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-15",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Washington Wizards vs. Houston Rockets",
-      "canales": [
-        "MNMT"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-15",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Milwaukee Bucks vs. Atlanta Hawks",
-      "canales": [
-        "Bucks App",
-        "MyMi"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-15",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Sacramento Kings vs. Oklahoma City Thunder",
-      "canales": [
-        "KSBI",
-        "Thunder App"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-16",
       "hora": "04:30",
