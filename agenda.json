@@ -1,62 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-15T23:54:42.170919-06:00",
+  "actualizado": "2026-11-16T09:27:26.297509-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-11-21",
-  "cantidad_eventos": 136,
+  "periodo_hasta": "2026-11-22",
+  "cantidad_eventos": 156,
   "eventos": [
-    {
-      "fecha": "2026-11-16",
-      "hora": "04:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Doubles",
-      "evento": "Simone Bolelli / Andrea Vavassori vs. Marcel Granollers / Horacio Zeballos",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-16",
-      "hora": "07:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Singles",
-      "evento": "Frances Tiafoe vs. Carlos Alcaraz",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-16",
-      "hora": "08:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "Anastasia Zolotareva vs. Katrina Scott",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-16",
-      "hora": "08:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "Diletta Cherubini vs. Rebeka Masarova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-16",
       "hora": "09:30",
@@ -324,32 +272,6 @@
       "hora": "23:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Singles",
-      "evento": "Frances Tiafoe vs. Daniil Medvedev",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-16",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Singles",
-      "evento": "Frances Tiafoe vs. Flavio Cobolli",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-16",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
       "liga": "Tenis WTA",
       "torneo": "LP Open by IND",
       "categoria": "Women's Singles",
@@ -552,6 +474,32 @@
       "torneo": "Nitto ATP Finals",
       "categoria": "Men's Singles",
       "evento": "Flavio Cobolli vs. Carlos Alcaraz",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Nitto ATP Finals",
+      "categoria": "Men's Singles",
+      "evento": "Frances Tiafoe vs. Daniil Medvedev",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Nitto ATP Finals",
+      "categoria": "Men's Singles",
+      "evento": "Frances Tiafoe vs. Flavio Cobolli",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1766,6 +1714,306 @@
       "torneo": "LP Open by IND",
       "categoria": "Women's Singles",
       "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "05:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Juventus vs. Venezia",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "07:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Barcelona vs. Villarreal",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "08:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Bologna vs. Udinese",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "08:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Hull City vs. Brighton & Hove Albion",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "08:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "Paris FC vs. Angers",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "08:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Sassuolo vs. Genoa",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "08:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "FC Augsburg vs. Mainz",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "09:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Racing Santander vs. Real Sociedad",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "10:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "Lorient vs. Stade Rennais",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Liverpool vs. Manchester United",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "10:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Bundesliga",
+      "evento": "Werder Bremen vs. Hamburg SV",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "11:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "AC Milan vs. Frosinone",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "11:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Osasuna vs. Málaga",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "13:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Atalanta vs. Internazionale",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "13:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Ligue 1",
+      "evento": "Marseille vs. Le Mans",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Getafe vs. Atlético Madrid",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "14:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Atlanta Hawks vs. Detroit Pistons",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "16:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Inter de San Carlos vs. Sporting San José",
+      "canales": [
+        "FUTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "17:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Miami Heat vs. Oklahoma City Thunder",
+      "canales": [
+        "KSBI",
+        "Thunder App"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Chicago Bulls vs. Denver Nuggets",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Utah Jazz vs. Dallas Mavericks",
+      "canales": [
+        "Jazz+",
+        "KFAA-TV",
+        "KJZZ-TV",
+        "MavsTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Washington Wizards vs. Orlando Magic",
+      "canales": [
+        "MNMT"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New York Knicks vs. Indiana Pacers",
+      "canales": [
+        "DAZN IND"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "19:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Golden State Warriors vs. Boston Celtics",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
