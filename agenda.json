@@ -1,79 +1,13 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-16T19:47:47.813676-06:00",
+  "actualizado": "2026-11-17T09:48:18.043368-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-11-22",
-  "cantidad_eventos": 146,
+  "periodo_hasta": "2026-11-23",
+  "cantidad_eventos": 171,
   "eventos": [
     {
-      "fecha": "2026-11-16",
-      "hora": "20:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Denver Nuggets vs. Phoenix Suns",
-      "canales": [
-        "Arizona's Family 3TV",
-        "Suns Live"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
       "fecha": "2026-11-17",
-      "hora": "04:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Doubles",
-      "evento": "Marcelo Arevalo / Mate Pavic vs. Harri Heliovaara / Henry Patten",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-17",
-      "hora": "07:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Singles",
-      "evento": "Rafael Jodar vs. Arthur Fils",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-17",
-      "hora": "08:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "Darja Semenistaja vs. Irene Burillo",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-17",
-      "hora": "08:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "Varvara Lepchenko vs. Nadia Podoroska",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-17",
-      "hora": "09:30",
+      "hora": "09:50",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -86,7 +20,7 @@
     },
     {
       "fecha": "2026-11-17",
-      "hora": "09:30",
+      "hora": "10:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -290,7 +224,7 @@
       "liga": "Tenis WTA",
       "torneo": "LP Open by IND",
       "categoria": "Women's Singles",
-      "evento": "Sofia Costoulas vs. Guiomar Maristany Zuleta De Reales",
+      "evento": "Irene Burillo vs. Anastasia Zolotareva",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -303,7 +237,7 @@
       "liga": "Tenis WTA",
       "torneo": "LP Open by IND",
       "categoria": "Women's Singles",
-      "evento": "TBD vs. Anastasia Zolotareva",
+      "evento": "Sofia Costoulas vs. Guiomar Maristany Zuleta De Reales",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -1884,6 +1818,406 @@
       "liga": "NBA",
       "evento": "Golden State Warriors vs. Boston Celtics",
       "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "13:45",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Serie A",
+      "evento": "Monza vs. Fiorentina",
+      "canales": [
+        "Paramount+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Brentford vs. Everton",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Levante vs. Elche",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Charlotte Hornets vs. Memphis Grizzlies",
+      "canales": [
+        "DAZN MEM"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Philadelphia 76ers vs. Portland Trail Blazers",
+      "canales": [
+        "BlazerVision"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Indiana Pacers vs. Oklahoma City Thunder",
+      "canales": [
+        "DAZN IND",
+        "KSBI",
+        "Thunder App"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Minnesota Timberwolves vs. Brooklyn Nets",
+      "canales": [
+        "DAZN MIN",
+        "NBCSN"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Toronto Raptors vs. Milwaukee Bucks",
+      "canales": [
+        "Bucks App",
+        "MyMi"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Chicago Bulls vs. Cleveland Cavaliers",
+      "canales": [
+        "DAZN CLE"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New Orleans Pelicans vs. Phoenix Suns",
+      "canales": [
+        "Arizona's Family 3TV",
+        "GCSEN",
+        "Pelicans.com",
+        "Suns Live"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "19:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Houston Rockets vs. LA Clippers",
+      "canales": [
+        "ClipperVision"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Liga Promerica de Costa Rica",
+      "evento": "Alajuelense vs. Cartaginés",
+      "canales": [
+        "FUTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "21:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Los Angeles Lakers vs. Utah Jazz",
+      "canales": [
+        "Jazz+",
+        "KJZZ-TV",
+        "NBA TV",
+        "Spectrum Sports Net",
+        "Spectrum Sports Net +"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "21:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Sacramento Kings vs. San Antonio Spurs",
+      "canales": [
+        "DAZN SAS"
+      ],
       "importante": false,
       "fuente": "ESPN"
     }
