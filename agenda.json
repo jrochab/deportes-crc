@@ -1,62 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-18T02:08:26.552379-06:00",
+  "actualizado": "2026-11-18T09:27:57.495475-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-11-24",
-  "cantidad_eventos": 172,
+  "cantidad_eventos": 168,
   "eventos": [
-    {
-      "fecha": "2026-11-18",
-      "hora": "04:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Doubles",
-      "evento": "Simone Bolelli / Andrea Vavassori vs. Christian Harrison / Neal Skupski",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "07:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Singles",
-      "evento": "Daniil Medvedev vs. Carlos Alcaraz",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "08:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Doubles",
-      "evento": "Irene Burillo / Anastasia Zolotareva vs. Valeriya Strakhova / Anastasia Tikhonova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "08:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "Sofia Costoulas vs. Guiomar Maristany Zuleta De Reales",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-18",
       "hora": "10:00",
@@ -876,7 +824,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Manchester City vs. Fulham",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -992,7 +943,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "AFC Bournemouth vs. Nottingham Forest",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1003,7 +956,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Aston Villa vs. Sunderland",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1025,7 +980,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Coventry City vs. Crystal Palace",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1036,7 +993,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Tottenham Hotspur vs. Ipswich Town",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1087,7 +1047,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Newcastle United vs. Arsenal",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1402,7 +1365,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Hull City vs. Brighton & Hove Albion",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1479,7 +1445,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Liverpool vs. Manchester United",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1893,7 +1862,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Brentford vs. Everton",
-      "canales": [],
+      "canales": [
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
