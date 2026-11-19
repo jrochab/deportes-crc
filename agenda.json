@@ -1,160 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-18T18:08:44.281005-06:00",
+  "actualizado": "2026-11-19T09:34:14.680037-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-11-24",
-  "cantidad_eventos": 157,
+  "periodo_hasta": "2026-11-25",
+  "cantidad_eventos": 155,
   "eventos": [
-    {
-      "fecha": "2026-11-18",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Brooklyn Nets vs. Chicago Bulls",
-      "canales": [
-        "DAZN (YES)"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Toronto Raptors vs. Washington Wizards",
-      "canales": [
-        "MNMT"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Dallas Mavericks vs. Golden State Warriors",
-      "canales": [
-        "KFAA-TV",
-        "MavsTV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New Orleans Pelicans vs. Detroit Pistons",
-      "canales": [
-        "GCSEN",
-        "Pelicans.com"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Oklahoma City Thunder vs. Atlanta Hawks",
-      "canales": [
-        "KSBI",
-        "Thunder App"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "20:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Denver Nuggets vs. Boston Celtics",
-      "canales": [
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Los Angeles Lakers vs. Utah Jazz",
-      "canales": [
-        "Jazz+",
-        "KJZZ-TV",
-        "Spectrum Sports Net",
-        "Spectrum Sports Net +"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-18",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Sacramento Kings vs. Phoenix Suns",
-      "canales": [
-        "Arizona's Family 3TV",
-        "Suns Live"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-19",
-      "hora": "04:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Doubles",
-      "evento": "Orlando Luz / Rafael Matos vs. Marcelo Arevalo / Mate Pavic",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-19",
-      "hora": "07:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Singles",
-      "evento": "Rafael Jodar vs. Ben Shelton",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-19",
-      "hora": "08:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "Carole Monnet vs. Lucia Bronzetti",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-19",
       "hora": "10:00",
@@ -312,6 +162,19 @@
       "liga": "Tenis WTA",
       "torneo": "LP Open by IND",
       "categoria": "Women's Singles",
+      "evento": "Laura Samson vs. Rebeka Masarova",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Singles",
       "evento": "TBD vs. Guiomar Maristany Zuleta De Reales",
       "canales": [],
       "importante": false,
@@ -326,19 +189,6 @@
       "torneo": "LP Open by IND",
       "categoria": "Women's Singles",
       "evento": "TBD vs. Leyre Romero Gormaz",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-19",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. Rebeka Masarova",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -2087,6 +1937,124 @@
       "categoria": "Women's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "16:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Philadelphia 76ers vs. Miami Heat",
+      "canales": [
+        "ESPN"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Charlotte Hornets vs. Chicago Bulls",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New York Knicks vs. Cleveland Cavaliers",
+      "canales": [
+        "DAZN CLE"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Oklahoma City Thunder vs. Minnesota Timberwolves",
+      "canales": [
+        "ESPN"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Memphis Grizzlies vs. LA Clippers",
+      "canales": [
+        "ClipperVision"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Milwaukee Bucks vs. Brooklyn Nets",
+      "canales": [
+        "Bucks App",
+        "DAZN (YES)",
+        "MyMi"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "19:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Houston Rockets vs. Phoenix Suns",
+      "canales": [
+        "Arizona's Family 3TV",
+        "Suns Live"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "21:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Golden State Warriors vs. Sacramento Kings",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "21:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Portland Trail Blazers vs. San Antonio Spurs",
+      "canales": [
+        "BlazerVision",
+        "ESPN",
+        "KUNP 16"
+      ],
       "importante": false,
       "fuente": "ESPN"
     }
