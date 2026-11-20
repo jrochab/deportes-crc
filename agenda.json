@@ -1,127 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-20T09:13:43.898066-06:00",
+  "actualizado": "2026-11-20T17:53:26.705377-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-11-26",
-  "cantidad_eventos": 147,
+  "cantidad_eventos": 138,
   "eventos": [
-    {
-      "fecha": "2026-11-20",
-      "hora": "10:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "Valeriya Strakhova vs. Lucia Bronzetti",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "11:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Doubles",
-      "evento": "Kevin Krawietz / Tim Puetz vs. Simone Bolelli / Andrea Vavassori",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "12:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Doubles",
-      "evento": "Veronika Erjavec / Zhibek Kulambayeva vs. Tenika McGiffin / Alexandra Osborne",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "13:30",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Bundesliga",
-      "evento": "Bayern Munich vs. FC Cologne",
-      "canales": [
-        "Fandango",
-        "USA Net"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "13:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Singles",
-      "evento": "Frances Tiafoe vs. Daniil Medvedev",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "13:45",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Ligue 1",
-      "evento": "Troyes vs. Le Havre AC",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "14:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "LaLiga",
-      "evento": "Athletic Club vs. Espanyol",
-      "canales": [
-        "ESPN Deportes",
-        "ESPN+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "14:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "Andrea Lazaro Garcia vs. Guiomar Maristany Zuleta De Reales",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "16:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "Laura Samson vs. Rebeka Masarova",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-20",
       "hora": "18:00",
@@ -258,79 +141,14 @@
       "fuente": "ESPN"
     },
     {
-      "fecha": "2026-11-20",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Singles",
-      "evento": "Ben Shelton vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "23:00",
+      "fecha": "2026-11-21",
+      "hora": "05:00",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis ATP",
       "torneo": "Nitto ATP Finals",
       "categoria": "Men's Doubles",
-      "evento": "TBD / TBD vs. Marcelo Arevalo / Mate Pavic",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Singles",
-      "evento": "TBD vs. Alexander Zverev",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis ATP",
-      "torneo": "Nitto ATP Finals",
-      "categoria": "Men's Doubles",
-      "evento": "Theo Arribage / Albano Olivetti vs. TBD / TBD",
+      "evento": "Christian Harrison / Neal Skupski vs. Marcelo Arevalo / Mate Pavic",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -360,6 +178,19 @@
         "ESPN Deportes",
         "ESPN+"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "07:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Nitto ATP Finals",
+      "categoria": "Men's Singles",
+      "evento": "Ben Shelton vs. Carlos Alcaraz",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -562,6 +393,19 @@
     },
     {
       "fecha": "2026-11-21",
+      "hora": "11:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Nitto ATP Finals",
+      "categoria": "Men's Doubles",
+      "evento": "Theo Arribage / Albano Olivetti vs. Kevin Krawietz / Tim Puetz",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-21",
       "hora": "11:30",
       "zona": "Costa Rica",
       "deporte": "Fútbol",
@@ -603,6 +447,19 @@
     },
     {
       "fecha": "2026-11-21",
+      "hora": "11:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Doubles",
+      "evento": "Veronika Erjavec / Zhibek Kulambayeva vs. Valeriya Strakhova / Anastasia Tikhonova",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-21",
       "hora": "12:00",
       "zona": "Costa Rica",
       "deporte": "Baloncesto",
@@ -612,6 +469,19 @@
         "Bucks App",
         "MyMi"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "13:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis ATP",
+      "torneo": "Nitto ATP Finals",
+      "categoria": "Men's Singles",
+      "evento": "Daniil Medvedev vs. Alexander Zverev",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -678,6 +548,19 @@
       "fecha": "2026-11-21",
       "hora": "14:00",
       "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Singles",
+      "evento": "Lucia Bronzetti vs. Leyre Romero Gormaz",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "14:00",
+      "zona": "Costa Rica",
       "deporte": "Fútbol",
       "liga": "LaLiga",
       "evento": "Real Madrid vs. Celta Vigo",
@@ -685,6 +568,19 @@
         "ESPN Deportes",
         "ESPN+"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "15:30",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "LP Open by IND",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. Guiomar Maristany Zuleta De Reales",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -783,19 +679,6 @@
       "canales": [
         "NBA TV"
       ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "LP Open by IND",
-      "categoria": "Women's Doubles",
-      "evento": "TBD / TBD vs. Valeriya Strakhova / Anastasia Tikhonova",
-      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1588,10 +1471,7 @@
       "liga": "NBA",
       "evento": "Denver Nuggets vs. Dallas Mavericks",
       "canales": [
-        "KFAA-TV",
-        "MavsTV",
-        "NBC",
-        "Peacock"
+        "NBC"
       ],
       "importante": false,
       "fuente": "ESPN"
