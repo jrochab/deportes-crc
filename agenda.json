@@ -1,49 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-24T16:13:45.464122-06:00",
+  "actualizado": "2026-11-25T01:59:12.049313-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-11-30",
-  "cantidad_eventos": 155,
+  "periodo_hasta": "2026-12-01",
+  "cantidad_eventos": 185,
   "eventos": [
-    {
-      "fecha": "2026-11-24",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Orlando Magic vs. Detroit Pistons",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-24",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Washington Wizards vs. Boston Celtics",
-      "canales": [
-        "NBC"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-24",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Denver Nuggets vs. Dallas Mavericks",
-      "canales": [
-        "KFAA-TV",
-        "MavsTV",
-        "NBC"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-25",
       "hora": "12:00",
@@ -429,7 +390,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Werder Bremen vs. Borussia Mönchengladbach",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -440,7 +403,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Brest vs. Paris FC",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -478,7 +443,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Nottingham Forest vs. Chelsea",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -703,7 +671,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "FC Cologne vs. SV Elversberg",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -714,7 +684,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Hamburg SV vs. Bayern Munich",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -725,7 +697,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Mainz vs. 1. FC Union Berlin",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -736,7 +710,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "SC Paderborn 07 vs. Schalke 04",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -747,7 +723,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Leeds United vs. Coventry City",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -758,7 +737,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Manchester United vs. Brentford",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -783,7 +764,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Angers vs. Lens",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -821,7 +804,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Ipswich Town vs. Aston Villa",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -832,7 +818,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "VfB Stuttgart vs. Eintracht Frankfurt",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -856,7 +844,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Le Havre AC vs. Strasbourg",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -867,7 +857,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Le Mans vs. Lille",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -878,7 +870,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Nice vs. Troyes",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -889,7 +883,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Paris Saint-Germain vs. Lorient",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1073,7 +1069,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Everton vs. Liverpool",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1098,7 +1097,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "AJ Auxerre vs. Marseille",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1123,7 +1124,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Brighton & Hove Albion vs. Newcastle United",
-      "canales": [],
+      "canales": [
+        "USA Net",
+        "Universo"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1134,7 +1138,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Crystal Palace vs. Hull City",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1145,7 +1151,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Fulham vs. AFC Bournemouth",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1156,7 +1164,9 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Sunderland vs. Tottenham Hotspur",
-      "canales": [],
+      "canales": [
+        "Peacock"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1167,7 +1177,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "SC Freiburg vs. RB Leipzig",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1192,7 +1204,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Toulouse vs. Stade Rennais",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1203,7 +1217,10 @@
       "deporte": "Fútbol",
       "liga": "Premier League",
       "evento": "Arsenal vs. Manchester City",
-      "canales": [],
+      "canales": [
+        "Tele",
+        "USA Net"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1214,7 +1231,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "TSG Hoffenheim vs. FC Augsburg",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1252,7 +1271,9 @@
       "deporte": "Fútbol",
       "liga": "Bundesliga",
       "evento": "Borussia Dortmund vs. Bayer Leverkusen",
-      "canales": [],
+      "canales": [
+        "Fandango"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1276,7 +1297,9 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Lyon vs. AS Monaco",
-      "canales": [],
+      "canales": [
+        "beIn Sports"
+      ],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -1989,11 +2012,438 @@
       ],
       "importante": false,
       "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "14:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Coventry City vs. Ipswich Town",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Cleveland Cavaliers vs. Indiana Pacers",
+      "canales": [
+        "DAZN CLE",
+        "DAZN IND"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Philadelphia 76ers vs. Memphis Grizzlies",
+      "canales": [
+        "DAZN MEM"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Miami Heat vs. Atlanta Hawks",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Chicago Bulls vs. New York Knicks",
+      "canales": [
+        "NBC"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "19:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Houston Rockets vs. Toronto Raptors",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Phoenix Suns vs. LA Clippers",
+      "canales": [
+        "Arizona's Family 3TV",
+        "ClipperVision",
+        "Suns Live"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "21:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Golden State Warriors vs. Utah Jazz",
+      "canales": [
+        "Jazz+",
+        "KJZZ-TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "22:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Portland Trail Blazers vs. Minnesota Timberwolves",
+      "canales": [
+        "BlazerVision",
+        "DAZN MIN",
+        "KUNP 16",
+        "NBC"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Singles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Quito Open",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
     }
   ],
-  "consultas_correctas": 75,
-  "fuentes_con_error": [
-    "Tenis WTA (20261126): Expecting value: line 1 column 1 (char 0)",
-    "MLB (20261127): Expecting value: line 1 column 1 (char 0)"
-  ]
+  "consultas_correctas": 77,
+  "fuentes_con_error": []
 }
