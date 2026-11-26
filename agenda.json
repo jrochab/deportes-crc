@@ -1,154 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-25T15:29:18.132172-06:00",
+  "actualizado": "2026-11-26T01:51:18.180225-06:00",
   "zona_horaria": "America/Costa_Rica",
-  "periodo_hasta": "2026-12-01",
-  "cantidad_eventos": 180,
+  "periodo_hasta": "2026-12-02",
+  "cantidad_eventos": 188,
   "eventos": [
-    {
-      "fecha": "2026-11-25",
-      "hora": "15:45",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "IEB+ Argentina Open",
-      "categoria": "Women's Singles",
-      "evento": "Carole Monnet vs. Solana Sierra",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "16:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "IEB+ Argentina Open",
-      "categoria": "Women's Doubles",
-      "evento": "Maria Lourdes Carle / Julia Riera vs. Tenika McGiffin / Alexandra Osborne",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "16:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Philadelphia 76ers vs. Miami Heat",
-      "canales": [
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "18:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Charlotte Hornets vs. Chicago Bulls",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "New York Knicks vs. Cleveland Cavaliers",
-      "canales": [
-        "DAZN CLE"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "18:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Oklahoma City Thunder vs. Minnesota Timberwolves",
-      "canales": [
-        "ESPN"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Memphis Grizzlies vs. LA Clippers",
-      "canales": [
-        "ClipperVision"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "19:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Milwaukee Bucks vs. Brooklyn Nets",
-      "canales": [
-        "Bucks App",
-        "DAZN (YES)",
-        "MyMi"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "19:30",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Houston Rockets vs. Phoenix Suns",
-      "canales": [
-        "Arizona's Family 3TV",
-        "Suns Live"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Golden State Warriors vs. Sacramento Kings",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-25",
-      "hora": "21:00",
-      "zona": "Costa Rica",
-      "deporte": "Baloncesto",
-      "liga": "NBA",
-      "evento": "Portland Trail Blazers vs. San Antonio Spurs",
-      "canales": [
-        "BlazerVision",
-        "ESPN",
-        "KUNP 16"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-26",
       "hora": "12:00",
@@ -235,7 +91,20 @@
       "liga": "Tenis WTA",
       "torneo": "IEB+ Argentina Open",
       "categoria": "Women's Singles",
-      "evento": "TBD vs. Alicia Herrero Linana",
+      "evento": "Julia Riera vs. Alicia Herrero Linana",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-11-26",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "IEB+ Argentina Open",
+      "categoria": "Women's Doubles",
+      "evento": "TBD / TBD vs. Lourdes Ayala / Sol Ailin Larraya Guidi",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -274,20 +143,7 @@
       "liga": "Tenis WTA",
       "torneo": "IEB+ Argentina Open",
       "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-26",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "IEB+ Argentina Open",
-      "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
+      "evento": "Tenika McGiffin / Alexandra Osborne vs. TBD / TBD",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -300,7 +156,7 @@
       "liga": "Tenis WTA",
       "torneo": "IEB+ Argentina Open",
       "categoria": "Women's Singles",
-      "evento": "Veronika Erjavec vs. TBD",
+      "evento": "Veronika Erjavec vs. Carole Monnet",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -2375,6 +2231,249 @@
       "categoria": "Women's Doubles",
       "evento": "TBD vs. TBD",
       "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "12:00",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Real Sociedad vs. Real Madrid",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+",
+        "ESPN2"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "13:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Chelsea vs. Crystal Palace",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "13:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Hull City vs. Nottingham Forest",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "13:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Liverpool vs. Sunderland",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "13:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Manchester City vs. Leeds United",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "14:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "AFC Bournemouth vs. Brighton & Hove Albion",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "14:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Aston Villa vs. Everton",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "14:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Brentford vs. Arsenal",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "14:15",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "Premier League",
+      "evento": "Newcastle United vs. Manchester United",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "14:30",
+      "zona": "Costa Rica",
+      "deporte": "Fútbol",
+      "liga": "LaLiga",
+      "evento": "Barcelona vs. Atlético Madrid",
+      "canales": [
+        "ESPN Deportes",
+        "ESPN+",
+        "ESPN2"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Detroit Pistons vs. Memphis Grizzlies",
+      "canales": [
+        "DAZN MEM"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "18:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Philadelphia 76ers vs. Denver Nuggets",
+      "canales": [
+        "NBA TV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "18:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Boston Celtics vs. Charlotte Hornets",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Dallas Mavericks vs. Orlando Magic",
+      "canales": [
+        "KFAA-TV",
+        "MavsTV"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Milwaukee Bucks vs. New York Knicks",
+      "canales": [
+        "Bucks App",
+        "MyMi"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "New Orleans Pelicans vs. Los Angeles Lakers",
+      "canales": [
+        "GCSEN",
+        "Pelicans.com",
+        "Spectrum Sports Net",
+        "Spectrum Sports Net +"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "19:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Oklahoma City Thunder vs. Brooklyn Nets",
+      "canales": [
+        "DAZN (YES)",
+        "KSBI",
+        "Thunder App"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "20:00",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "Phoenix Suns vs. Sacramento Kings",
+      "canales": [
+        "Arizona's Family 3TV",
+        "Suns Live"
+      ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "21:30",
+      "zona": "Costa Rica",
+      "deporte": "Baloncesto",
+      "liga": "NBA",
+      "evento": "LA Clippers vs. Minnesota Timberwolves",
+      "canales": [
+        "ClipperVision",
+        "DAZN MIN",
+        "NBA TV"
+      ],
       "importante": false,
       "fuente": "ESPN"
     }
