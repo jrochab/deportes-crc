@@ -1,52 +1,13 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-26T01:51:18.180225-06:00",
+  "actualizado": "2026-11-26T15:16:37.833466-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-12-02",
-  "cantidad_eventos": 188,
+  "cantidad_eventos": 185,
   "eventos": [
     {
       "fecha": "2026-11-26",
-      "hora": "12:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "IEB+ Argentina Open",
-      "categoria": "Women's Singles",
-      "evento": "Nuria Brancaccio vs. Guiomar Maristany Zuleta De Reales",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-26",
-      "hora": "12:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "IEB+ Argentina Open",
-      "categoria": "Women's Singles",
-      "evento": "Varvara Lepchenko vs. Sofia Costoulas",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-26",
-      "hora": "13:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "IEB+ Argentina Open",
-      "categoria": "Women's Singles",
-      "evento": "Laura Samson vs. Irene Burillo",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-26",
-      "hora": "14:00",
+      "hora": "15:20",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -59,7 +20,7 @@
     },
     {
       "fecha": "2026-11-26",
-      "hora": "15:00",
+      "hora": "15:30",
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
@@ -117,7 +78,7 @@
       "liga": "Tenis WTA",
       "torneo": "IEB+ Argentina Open",
       "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
+      "evento": "TBD vs. Guiomar Maristany Zuleta De Reales",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -635,9 +596,7 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Le Havre AC vs. Strasbourg",
-      "canales": [
-        "beIn Sports"
-      ],
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -648,9 +607,7 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Le Mans vs. Lille",
-      "canales": [
-        "beIn Sports"
-      ],
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -661,9 +618,7 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Nice vs. Troyes",
-      "canales": [
-        "beIn Sports"
-      ],
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -674,9 +629,7 @@
       "deporte": "Fútbol",
       "liga": "Ligue 1",
       "evento": "Paris Saint-Germain vs. Lorient",
-      "canales": [
-        "beIn Sports"
-      ],
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     },
@@ -2032,58 +1985,6 @@
       "zona": "Costa Rica",
       "deporte": "Tenis",
       "liga": "Tenis WTA",
-      "torneo": "Open Angers Loire Trélazé",
-      "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-12-01",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Open Angers Loire Trélazé",
-      "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-12-01",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Open Angers Loire Trélazé",
-      "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-12-01",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "Open Angers Loire Trélazé",
-      "categoria": "Women's Doubles",
-      "evento": "TBD vs. TBD",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-12-01",
-      "hora": "23:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
       "torneo": "Quito Open",
       "categoria": "Women's Singles",
       "evento": "TBD vs. TBD",
@@ -2474,6 +2375,58 @@
         "DAZN MIN",
         "NBA TV"
       ],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
+      "importante": false,
+      "fuente": "ESPN"
+    },
+    {
+      "fecha": "2026-12-02",
+      "hora": "23:00",
+      "zona": "Costa Rica",
+      "deporte": "Tenis",
+      "liga": "Tenis WTA",
+      "torneo": "Open Angers Loire Trélazé",
+      "categoria": "Women's Doubles",
+      "evento": "TBD vs. TBD",
+      "canales": [],
       "importante": false,
       "fuente": "ESPN"
     }
