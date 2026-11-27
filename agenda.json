@@ -1,129 +1,10 @@
 {
   "version_script": "v7-espn-localia",
-  "actualizado": "2026-11-27T01:51:35.300049-06:00",
+  "actualizado": "2026-11-27T14:58:32.225151-06:00",
   "zona_horaria": "America/Costa_Rica",
   "periodo_hasta": "2026-12-03",
-  "cantidad_eventos": 195,
+  "cantidad_eventos": 186,
   "eventos": [
-    {
-      "fecha": "2026-11-27",
-      "hora": "07:30",
-      "zona": "Costa Rica",
-      "deporte": "Automovilismo",
-      "liga": "Fórmula 1",
-      "evento": "Qatar Airways Qatar Grand Prix",
-      "canales": [
-        "Apple TV"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-27",
-      "hora": "12:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "IEB+ Argentina Open",
-      "categoria": "Women's Singles",
-      "evento": "Laura Samson vs. Varvara Lepchenko",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-27",
-      "hora": "12:00",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "IEB+ Argentina Open",
-      "categoria": "Women's Singles",
-      "evento": "Veronika Erjavec vs. Carole Monnet",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-27",
-      "hora": "13:30",
-      "zona": "Costa Rica",
-      "deporte": "Tenis",
-      "liga": "Tenis WTA",
-      "torneo": "IEB+ Argentina Open",
-      "categoria": "Women's Singles",
-      "evento": "Maria Lourdes Carle vs. Guiomar Maristany Zuleta De Reales",
-      "canales": [],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-27",
-      "hora": "13:30",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Bundesliga",
-      "evento": "Werder Bremen vs. Borussia Mönchengladbach",
-      "canales": [
-        "Fandango"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-27",
-      "hora": "13:45",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Ligue 1",
-      "evento": "Brest vs. Paris FC",
-      "canales": [
-        "beIn Sports"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-27",
-      "hora": "13:45",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Serie A",
-      "evento": "Venezia vs. Bologna",
-      "canales": [
-        "Paramount+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-27",
-      "hora": "14:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "LaLiga",
-      "evento": "Levante vs. Racing Santander",
-      "canales": [
-        "ESPN Deportes",
-        "ESPN+"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
-    {
-      "fecha": "2026-11-27",
-      "hora": "14:00",
-      "zona": "Costa Rica",
-      "deporte": "Fútbol",
-      "liga": "Premier League",
-      "evento": "Nottingham Forest vs. Chelsea",
-      "canales": [
-        "USA Net",
-        "Universo"
-      ],
-      "importante": false,
-      "fuente": "ESPN"
-    },
     {
       "fecha": "2026-11-27",
       "hora": "15:00",
@@ -332,7 +213,7 @@
       "liga": "Tenis WTA",
       "torneo": "IEB+ Argentina Open",
       "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
+      "evento": "TBD vs. Veronika Erjavec",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
@@ -345,7 +226,7 @@
       "liga": "Tenis WTA",
       "torneo": "IEB+ Argentina Open",
       "categoria": "Women's Singles",
-      "evento": "TBD vs. TBD",
+      "evento": "Varvara Lepchenko vs. TBD",
       "canales": [],
       "importante": false,
       "fuente": "ESPN"
